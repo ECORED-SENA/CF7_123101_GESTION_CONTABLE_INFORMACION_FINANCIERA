@@ -7,8 +7,8 @@
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre el reconocimiento y medición de instrumentos financieros que organiza información en cinco categorías: normas clave (NIIF 9, NIIF 7 y NIC 32), tipos de instrumentos financieros (activos, pasivos y patrimonio), medición y reconocimiento (valor razonable, costo amortizado, presentación en EEFF y revelación en notas), otros conceptos (pasivos contingentes, provisiones y ORI), y capital y reservas (aportes y reservas legales y acumuladas).")
-      .col-auto
-        a.anexo.col-12.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+      .col-auto.d-flex
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank" style="width: 100% !important")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
