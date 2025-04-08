@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Instrumentos de patrimonio
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         p.mb-4 Un instrumento de patrimonio es un negocio respaldado por un contrato que pone de manifiesto una participación residual en los activos de una entidad después de deducir todos los pasivos.
         .row.align-items-center.py-2.mx-0.mb-4(style="background-color: #FEEAD4")
@@ -26,7 +26,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Reconocimiento, medición, presentación, Revelación:
     
-    .bg-gradient-2
+    .fondo-slider(style="background: linear-gradient(0deg, rgba(0,0,0,0) 30%, rgba(243,240,234,1) 30%, rgba(243,240,234,1) 80%, rgba(0,0,0,0) 100%);")
       .row.caja-text-img-tema1.align-items-center.mx-0.mb-0.py-3(style="background-color: #8454EE")
         .col-xl-auto
           figure(data-aos="fade-up").d-none.d-xl-block
@@ -190,131 +190,132 @@
                       td.texto-right $ 300.000,00
     separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Aportes de Capital
-    
-    .d-flex.flex-wrap.mb-5
-      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.mb-4 Los aportes iniciales de los socios corresponden al capital y está representado en acciones, libremente negociables en las bolsas de valores. 
-        ul.lista-ul.mb-4
-          li
-            i.fas.fa-angle-right.txt--purple
-            | #[b Autorizado:] es el valor máximo de capitalización de una sociedad. 
-          li
-            i.fas.fa-angle-right.txt--purple
-            | #[b Suscrito:] es la parte del capital autorizado, el cual los accionistas se comprometen a pagar, como si fuera una venta a plazos, sin superar el año, artículo 387 del Código del Comercio, para el caso de las Sociedades Simplificadas por acciones S.A.S, el plazo es de dos años acorde a la ley 1258 de 2008 artículo 387. 
-          li
-            i.fas.fa-angle-right.txt--purple
-            | #[b Pagado:] Es la parte del capital suscrito que los accionistas han cancelado y que efectivamente se encuentran en poder de la sociedad.
-        p.mb-0.p-4(style="background-color: #E6DCFB") #[b Ejemplo]
-          br
-          br
-          |En 2017 se constituyó la empresa Aprendiendo S.A., con un capital autorizado de 120.000 acciones con un valor por acción de $ 2.500, los accionistas suscribieron el 50 % de las acciones autorizadas y pagaron el 70 % de la suscripción.
-      .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
-        img(src="@/assets/curso/tema2/img-5.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4
+    .fondo-slider(style="background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(255,245,234) 30%, rgba(255,245,234) 80%, rgba(0,0,0,0) 100%);")
+      #t_2_2.titulo-segundo.color-acento-contenido
+        h2 2.2 Aportes de Capital
+      
+      .d-flex.flex-wrap.mb-5
+        .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
+          p.mb-4 Los aportes iniciales de los socios corresponden al capital y está representado en acciones, libremente negociables en las bolsas de valores. 
+          ul.lista-ul.mb-4
+            li
+              i.fas.fa-angle-right.txt--purple
+              | #[b Autorizado:] es el valor máximo de capitalización de una sociedad. 
+            li
+              i.fas.fa-angle-right.txt--purple
+              | #[b Suscrito:] es la parte del capital autorizado, el cual los accionistas se comprometen a pagar, como si fuera una venta a plazos, sin superar el año, artículo 387 del Código del Comercio, para el caso de las Sociedades Simplificadas por acciones S.A.S, el plazo es de dos años acorde a la ley 1258 de 2008 artículo 387. 
+            li
+              i.fas.fa-angle-right.txt--purple
+              | #[b Pagado:] Es la parte del capital suscrito que los accionistas han cancelado y que efectivamente se encuentran en poder de la sociedad.
+          p.mb-0.p-4(style="background-color: #E6DCFB") #[b Ejemplo]
+            br
+            br
+            |En 2017 se constituyó la empresa Aprendiendo S.A., con un capital autorizado de 120.000 acciones con un valor por acción de $ 2.500, los accionistas suscribieron el 50 % de las acciones autorizadas y pagaron el 70 % de la suscripción.
+        .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
+          img(src="@/assets/curso/tema2/img-5.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4
 
 
-    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
-      .col-lg-auto
-        figure
-          img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
-      .col
-        h3 Reconocimiento inicial
+      .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+        .col-lg-auto
+          figure
+            img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
+        .col
+          h3 Reconocimiento inicial
 
-    p.mb-5 A continuación, se presentan los asientos contables correspondientes al reconocimiento inicial del capital autorizado, suscrito y pagado:
+      p.mb-5 A continuación, se presentan los asientos contables correspondientes al reconocimiento inicial del capital autorizado, suscrito y pagado:
 
-    .col-lg-10.col-xl-6.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido.mb-3
-        h5 Tabla 24.
-        span Primer registro: capital autorizado y por suscribir
-      .tabla-a.mb-4(data-aos="fade-up")
-        table.table-type-1
-          thead
-            tr
-              th CUENTA
-              th DÉBITOS
-              th CRÉDITOS
-          tbody
-            tr
-              td.fw-bold.text-start Capital por suscribir
-              td.texto-right $ 300.000.000
-              td.texto-right -
-            tr
-              td.fw-bold.text-start Capital autorizado
-              td.texto-right -
-              td.texto-right $ 300.000.000
+      .col-lg-10.col-xl-6.mx-auto.mb-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 24.
+          span Primer registro: capital autorizado y por suscribir
+        .tabla-a.mb-4(data-aos="fade-up")
+          table.table-type-1
+            thead
+              tr
+                th CUENTA
+                th DÉBITOS
+                th CRÉDITOS
+            tbody
+              tr.bg-white
+                td.fw-bold.text-start Capital por suscribir
+                td.texto-right $ 300.000.000
+                td.texto-right -
+              tr.bg-white
+                td.fw-bold.text-start Capital autorizado
+                td.texto-right -
+                td.texto-right $ 300.000.000
 
-      .titulo-sexto.color-acento-contenido.mb-3
-        h5 Tabla 25.
-        span Segundo registro: capital suscrito y pagado parcialmente
-      .tabla-a.mb-4(data-aos="fade-up")
-        table.table-type-1
-          thead
-            tr
-              th CUENTA
-              th DÉBITOS
-              th CRÉDITOS
-          tbody
-            tr
-              td.fw-bold.text-start Efectivo y sus equivalentes
-              td.texto-right $ 105.000.000
-              td.texto-right -
-            tr
-              td.fw-bold.text-start Capital suscrito por pagar
-              td.texto-right $ 45.000.000
-              td.texto-right -
-            tr
-              td.fw-bold.text-start Capital por suscribir
-              td.texto-right -
-              td.texto-right $ 150.000.000
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 25.
+          span Segundo registro: capital suscrito y pagado parcialmente
+        .tabla-a.mb-4(data-aos="fade-up")
+          table.table-type-1
+            thead
+              tr
+                th CUENTA
+                th DÉBITOS
+                th CRÉDITOS
+            tbody
+              tr.bg-white
+                td.fw-bold.text-start Efectivo y sus equivalentes
+                td.texto-right $ 105.000.000
+                td.texto-right -
+              tr.bg-white
+                td.fw-bold.text-start Capital suscrito por pagar
+                td.texto-right $ 45.000.000
+                td.texto-right -
+              tr.bg-white
+                td.fw-bold.text-start Capital por suscribir
+                td.texto-right -
+                td.texto-right $ 150.000.000
 
 
-    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
-      .col-lg-auto
-        figure
-          img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
-      .col
-        h3 Detalle de las cuentas:
-    
-    p.mb-5 Se presentan a continuación los datos relacionados con el capital autorizado, suscrito y pagado:
+      .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+        .col-lg-auto
+          figure
+            img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
+        .col
+          h3 Detalle de las cuentas:
+      
+      p.mb-5 Se presentan a continuación los datos relacionados con el capital autorizado, suscrito y pagado:
 
-    .col-lg-10.col-xl-6.mx-auto.py-5.px-3.mb-5(style="box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
-      img(src="@/assets/curso/tema2/img-6.svg", alt="", style="max-width: 394px").mx-auto
+      .col-lg-10.col-xl-6.mx-auto.py-5.px-3.mb-5(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
+        img(src="@/assets/curso/tema2/img-6.svg", alt="", style="max-width: 394px").mx-auto
 
-    .col-lg-10.col-xl-6.mx-auto.py-5.px-3.mb-5(style="box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
-      img(src="@/assets/curso/tema2/img-7.svg", alt="", style="max-width: 394px").mx-auto
-    
-    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
-      .col-lg-auto
-        figure
-          img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
-      .col
-        h3 Presentación:
+      .col-lg-10.col-xl-6.mx-auto.py-5.px-3.mb-5(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
+        img(src="@/assets/curso/tema2/img-7.svg", alt="", style="max-width: 394px").mx-auto
+      
+      .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+        .col-lg-auto
+          figure
+            img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
+        .col
+          h3 Presentación:
 
-    p.mb-5 A continuación, se presenta el estado de situación financiera inicial de la empresa:
+      p.mb-5 A continuación, se presenta el estado de situación financiera inicial de la empresa:
 
-    .d-flex.flex-wrap.mb-5
-      .col-lg-6.mx-auto.py-5.px-3.mb-5.order-2.order-lg-1(style="box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)" data-aos="fade-right")
-        img(src="@/assets/curso/tema2/img-9.svg", alt="", style="max-width: 396px").mx-auto
-      .mx-auto.col-md-6.order-1.order-lg-2
-        img(src="@/assets/curso/tema2/img-10.svg", alt="", style="max-width: 610px").mx-auto.mb-4.ps-lg-4
+      .d-flex.flex-wrap.mb-5
+        .col-lg-6.mx-auto.py-5.px-3.mb-5.order-2.order-lg-1(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)" data-aos="fade-right")
+          img(src="@/assets/curso/tema2/img-9.svg", alt="", style="max-width: 396px").mx-auto
+        .mx-auto.col-md-6.order-1.order-lg-2
+          img(src="@/assets/curso/tema2/img-10.svg", alt="", style="max-width: 610px").mx-auto.mb-4.ps-lg-4
 
-    separador
+      separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3 Ganancias acumuladas
-    
-    .d-flex.flex-wrap.align-items-center
-      .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
-        img(src="@/assets/curso/tema2/img-11.png" style="max-width: 502px").mx-auto
-      .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
-        .row.align-items-center.py-2.mx-0.mb-4(style="background-color: #DDEFFD")
-          .col-auto
-            figure(data-aos="fade-up")
-              img.mb-4.mb-lg-0(src="@/assets/curso/tema2/img-12.svg", alt="" style="max-width: 81px").m-auto
-          .col-xl
-            p.mb-0 Es el dinero guardado que no es entregado a los accionistas en forma de dividendos, estas ganancias se encuentran en el patrimonio como ganancias acumuladas en el estado de Situación Financiera.
-        p.mb-0 De igual forma se relaciona en el estado de cambios en el patrimonio; cuyo objetivo, es mostrar los cambios o variaciones presentadas de un periodo a otro. Entre las variaciones que se analizan y que son significativas para dicho estado financiero, se puede observar la política de dividendos que maneja la entidad, donde se encuentra estipulado no distribuir el 100% de las utilidades del ejercicio, de tal manera, que la parte no decretada para reparto, queda acumulada hasta tanto los socios decidan distribuirla entre los accionistas.
+      #t_2_3.titulo-segundo.color-acento-contenido
+        h2 2.3 Ganancias acumuladas
+      
+      .d-flex.flex-wrap.align-items-center
+        .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+          img(src="@/assets/curso/tema2/img-11.png" style="max-width: 502px").mx-auto
+        .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+          .row.align-items-center.py-2.mx-0.mb-4(style="background-color: #DDEFFD")
+            .col-auto
+              figure(data-aos="fade-up")
+                img.mb-4.mb-lg-0(src="@/assets/curso/tema2/img-12.svg", alt="" style="max-width: 81px").m-auto
+            .col-xl
+              p.mb-0 Es el dinero guardado que no es entregado a los accionistas en forma de dividendos, estas ganancias se encuentran en el patrimonio como ganancias acumuladas en el estado de Situación Financiera.
+          p.mb-0 De igual forma se relaciona en el estado de cambios en el patrimonio; cuyo objetivo, es mostrar los cambios o variaciones presentadas de un periodo a otro. Entre las variaciones que se analizan y que son significativas para dicho estado financiero, se puede observar la política de dividendos que maneja la entidad, donde se encuentra estipulado no distribuir el 100% de las utilidades del ejercicio, de tal manera, que la parte no decretada para reparto, queda acumulada hasta tanto los socios decidan distribuirla entre los accionistas.
 
     separador
 
@@ -496,31 +497,31 @@
     .d-flex.flex-wrap
       .col-lg-6.mx-auto.py-5.mb-5.order-2.order-lg-1(data-aos="fade-right")
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.aplicaciones-mcit.gov.co/adjuntos/niif/12_ES_BV2012_IFRS07_PARTª20A.pdf" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2010, P, A256.
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-discusion-publica/enmienda-a-la-niif-9-instrumentos/doc-ctcp-xl8w9-141" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2019 Página 5.
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534365029-7113" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, Norma Internacional de Contabilidad NIC 32.
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/publicaciones-ctcp/orientaciones-tecnicas/1472852072-9672." target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2015, P.2.
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/publicaciones-ctcp/orientaciones-tecnicas/1472851475-1578" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
@@ -551,6 +552,7 @@ export default {
 <style lang="sass" scoped>
 .linea-points
   display: flex
+  align-items: center
   position: relative
   justify-content: space-between
   &::before
@@ -571,8 +573,10 @@ export default {
     color: white
     position: relative
     z-index: 1
-    padding: 0 5px
+    padding: 5px
     background-color: #412976
+  .label
+    margin-right: 1rem
   &.v2
     &::before
       border-bottom: 3px dotted #12263F

@@ -786,7 +786,7 @@
     separador
 
     #t_1_7.titulo-segundo.color-acento-contenido
-      h2 1.7 Reconocimiento, medición, presentación, revelación:
+      h2 1.7 Reconocimiento, medición, presentación, revelación
     p.mb-5 En el presente ítem se aborda conceptos que determinan el reconocimiento de los instrumentos de patrimonio, a su vez presenta ejemplos que acompañan el proceso de aplicabilidad.
 
     .row.mb-5.ajuste-espacios-movil.pt-5

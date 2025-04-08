@@ -46,9 +46,35 @@ export default {
             hash: 't_1_1',
           },
           {
-            numero: '1.1',
+            numero: '1.2',
             titulo: 'Instrumentos Financieros',
             hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Obligaciones con terceros',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Pasivos contingentes',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Diferencia entre pasivo financiero e instrumento de patrimonio',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Instrumentos financieros pasivos y activos',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Reconocimiento, medición, presentación y revelación',
+            hash: 't_1_7',
           },
         ],
       },
@@ -58,6 +84,33 @@ export default {
         numero: '2',
         titulo: 'Tema 2',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Reconocimiento, medición, presentación y revelación',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Aportes a capital',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Ganancias acumuladas',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Reservas',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Otro Resultado Integral (ORI)',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
