@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Instrumentos financieros: activos, pasivos e instrumentos de patrimonio
-    .bg-gradient-1.mb-5
+    .bg-gradient-1
       .row.caja-text-img-tema1.align-items-center.mx-0.mb-0(style="background-color: #8454EE")
         .col-xl-auto
           figure(data-aos="fade-up").d-none.d-xl-block
@@ -14,7 +14,7 @@
         .col-xl
           p.mb-0.text-white.fw-bold A continuación, se relacionan algunos conceptos que se deben tener en cuenta en el reconocimiento y medición de instrumentos financieros:
 
-      .row.mb-5.ajuste-espacios-movil.pt-5
+      .row.ajuste-espacios-movil.pt-5
         .col-xl
           TabsA.color-acento-botones.mb-4
             .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
@@ -32,19 +32,19 @@
               .d-flex.flex-wrap.align-items-center.gap-3
                 p.order-2.order-md-1.col-12.col-md Un instrumento de patrimonio es cualquier contrato que ponga de manifiesto una participación residual en los activos de una entidad, después de deducir todos sus pasivos. (Norma Internacional de Contabilidad, s.f. p.2).
                 img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-4.svg", alt="", style="max-width: 155px").m-auto
-      p.mb-5 Para ampliar la información pertinente a los instrumentos financieros (activos, pasivos e instrumentos de patrimonio), haga clic en el siguiente enlace:
+      //- p.mb-5 Para ampliar la información pertinente a los instrumentos financieros (activos, pasivos e instrumentos de patrimonio), haga clic en el siguiente enlace:
 
-      .col-auto.d-flex.col-12.col-md-8.col-lg-5
-        a.anexo(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank" style="width: 100% !important; margin-bottom: -2rem")
-          .anexo__icono
-            img(src="@/assets/bullets/icono-pdf.svg")
-          .anexo__texto
-            p #[b Anexo]. Instrumentos financieros: activos, pasivos e instrumentos de patrimonio
+      //- .col-auto.d-flex.col-12.col-md-8.col-lg-5
+      //-   a.anexo(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank" style="width: 100% !important; margin-bottom: -2rem")
+      //-     .anexo__icono
+      //-       img(src="@/assets/bullets/icono-pdf.svg")
+      //-     .anexo__texto
+      //-       p #[b Anexo]. Instrumentos financieros: activos, pasivos e instrumentos de patrimonio
     separador
 
 
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Obligaciones con terceros
+      h2 1.1 Política contable
     
     p Son los principios, bases, acuerdos, reglas y procedimientos específicos adoptados por la entidad en la elaboración y presentación de los estados financieros.
 
@@ -70,7 +70,7 @@
             p.mb-0 Norma Internacional de Información financiera NIIF 9 define cómo se deben reconocer y medir los instrumentos financieros.
         
         p.mb-0 La normativa que se debe tener en cuenta para la aplicación de Instrumentos Financieros es la siguiente:
-      .mx-auto.col-lg-5.order-1.order-lg-2
+      .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-5.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4
 
     .titulo-sexto.color-acento-contenido.mb-2
@@ -81,7 +81,7 @@
         img(src="@/assets/curso/tema1/img-7.svg" style="max-width: 540px").m-auto
 
     .d-flex.flex-wrap
-      .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+      .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-8.png" style="max-width: 502px").mx-auto
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
         p.mb-4 Una entidad optará entre aplicar dependiendo del grupo al que pertenece:
@@ -281,7 +281,7 @@
         h3 Pasivos Financiero
     
     .d-flex.flex-wrap.mb-5
-      .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+      .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-12.png" style="max-width: 502px").mx-auto
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
         p.mb-4.p-4(style="background-color: #E6DCFB") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo sin embargo si es para negociar incluidos los instrumentos derivados se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p.9)
@@ -309,7 +309,7 @@
           li
             i.fas.fa-angle-right.txt--purple
             | Valor razonable todos aquellos que se adquieren con la intención de ser negociados.
-      .mx-auto.col-lg-5.order-1.order-lg-2
+      .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-13.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
 
 
@@ -439,7 +439,7 @@
     p.mb-5 Es una obligación posible porque depende de que en el futuro ocurra algo que está fuera del alcance de la empresa para que sea reconocido el compromiso, por lo que los pasivos contingentes no se reconocen, pero sí se revelan.
 
     .d-flex.flex-wrap.mb-5
-      .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+      .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-15.svg" style="max-width: 502px").mx-auto
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
         .row.mb-4.ajuste-espacios-movil
@@ -465,7 +465,7 @@
 
         p En el caso de un instrumento con opción de venta, es decir que el tenedor debe devolverlo al emisor a cambio de efectivo u otro activo se reconoce como un pasivo financiero.
         
-      .mx-auto.col-lg-5.order-1.order-lg-2
+      .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-16.png", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
 
     separador
@@ -506,7 +506,7 @@
             li
               i.fas.fa-angle-right.txt--purple
               | Futuros
-        .mx-auto.col-lg-6.order-1.order-lg-2
+        .mx-auto.col-md-6.col-lg-6.order-1.order-lg-2
           img(src="@/assets/curso/tema1/img-17.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4  
 
     p.mb-5 Los instrumentos de cobertura son derivados, es decir, activos cuya evolución depende de la que sigan otros (conocidos como subyacentes). Su popularidad se apoya, entre otros factores, en el hecho de que los futuros y muchas opciones se negocien en mercados organizados lo que permite que estos productos estén al alcance de pequeños inversores.
@@ -564,7 +564,7 @@
       .ajuste-slider
         SlyderA(tipo="b")
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold Cálculo del interés efectivo
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 9.
@@ -582,7 +582,7 @@
                     tr
                       td.fw-bold AÑO 1
                       td.texto-right $ 10.920
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-19.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             p.col-12.fw-bold Tabla costo amortizado
@@ -590,7 +590,7 @@
                 h5 Tabla 10.
                 span Tabla costo amortizado
             .tabla-a.mb-4(data-aos="fade-up")
-              table.table-type-1
+              table.table-type-1(style="min-width: 750px")
                 thead
                   tr
                     th AÑOS
@@ -615,7 +615,7 @@
                     td $ 27.976,45
                     td $ 418.418
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Suscripción
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 11.
@@ -636,10 +636,10 @@
                       td.fw-bold Bancos
                       td.texto-right -
                       td.texto-right $ 365.000,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-20.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Cobro del interés explícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 12.
@@ -660,10 +660,10 @@
                       td.fw-bold Ingresos de valores representativos de deuda
                       td.texto-right -
                       td.texto-right $ 10.920,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-21.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Devengo del interés implícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 13.
@@ -684,10 +684,10 @@
                       td.fw-bold Bancos
                       td.texto-right -
                       td.texto-right 365.000,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-22.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Reclasificación de los títulos a corto plazo
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 14.
@@ -708,10 +708,10 @@
                       td.fw-bold Ingresos de valores representativos de deuda
                       td.texto-right -
                       td.texto-right $ 10.920,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-23.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 2. Cobro del interés explícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 15.
@@ -732,10 +732,10 @@
                       td.fw-bold Ingresos de valores representativos de deuda
                       td.texto-right -
                       td.texto-right $ 25.441,89
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-24.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 2. Devengo del interés implícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 16.
@@ -756,10 +756,10 @@
                       td.fw-bold Valores representativos de deudas a largo plazo
                       td.texto-right -
                       td.texto-right $ 390.441,89
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-25.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 2 Reembolso de los títulos
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 17.
@@ -780,7 +780,7 @@
                       td.fw-bold Ingresos de valores representativos de deuda
                       td.texto-right -
                       td.texto-right $ 10.920,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-26.svg" style="max-width: 298px").mx-auto
 
     separador
@@ -829,7 +829,7 @@
           | =PAGO
           br
           |= $ 40.468.926,49
-      .mx-auto.col-lg-5.order-1.order-lg-2
+      .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-31.png", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
 
     .titulo-sexto.color-acento-contenido.mb-3
@@ -839,7 +839,7 @@
     p Para el reconocimiento de los abonos a capital e intereses incluidos en cada cuota por pagar.
 
     .tabla-a.mb-5(data-aos="fade-right")
-      table.table-type-1
+      table.table-type-1(style="min-width: 850px")
         thead
           tr
             th AÑOS
