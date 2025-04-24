@@ -20,17 +20,17 @@
             .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
               h4 Activo financiero
               .d-flex.flex-wrap.align-items-center.gap-3
-                p.order-2.order-md-1.col-12.col-md Los activos financieros se clasifican de acuerdo al modelo de negocio del suscriptor en tres categorías: a su costo amortizado, a valor razonable con cambios en el patrimonio otro (resultado integral) o a valor razonable con cambios en pérdidas y ganancias dependiendo de las características de los flujos de efectivo descritos en el documento que protocoliza el instrumento financiero por ejemplo el cobro de los rendimientos generados por el activo o tener la intención de vender el activo. (Norma internacional de información financiera, 2016, p.9)
+                p.order-2.order-md-1.col-12.col-md Los activos financieros se clasifican de acuerdo al modelo de negocio del suscriptor en tres categorías: a su costo amortizado, a valor razonable con cambios en el patrimonio (otro resultado integral) o a valor razonable con cambios en pérdidas y ganancias dependiendo de las características de los flujos de efectivo descritos en el documento que protocoliza el instrumento financiero, por ejemplo, el cobro de los rendimientos generados por el activo o tener la intención de vender el activo. (Norma internacional de información financiera, 2016, p. 9)
                 img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-2.svg", alt="", style="max-width: 155px").m-auto
             .tarjeta.color-acento-botones--borde.p-4(titulo="Pasivo Financiero")
-              h4 Pasivo Financiero
+              h4 Pasivo financiero
               .d-flex.flex-wrap.align-items-center.gap-3
-                p.order-2.order-md-1.col-12.col-md Generalmente los pasivos financieros se miden a costo amortizado, excepto aquellos pasivos financieros que se mantienen para negociar, como por ejemplo los derivados, que se valoran a valor razonable con cambios en resultados.
+                p.order-2.order-md-1.col-12.col-md Generalmente, los pasivos financieros se miden a costo amortizado, excepto aquellos pasivos financieros que se mantienen para negociar, como por ejemplo los derivados, que se valoran a valor razonable con cambios en resultados.
                 img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-3.svg", alt="", style="max-width: 155px").m-auto
             .tarjeta.color-acento-botones--borde.p-4(titulo="Patrimonio")
               h4 Patrimonio
               .d-flex.flex-wrap.align-items-center.gap-3
-                p.order-2.order-md-1.col-12.col-md Un instrumento de patrimonio es cualquier contrato que ponga de manifiesto una participación residual en los activos de una entidad, después de deducir todos sus pasivos. (Norma Internacional de Contabilidad, s.f. p.2).
+                p.order-2.order-md-1.col-12.col-md Un instrumento de patrimonio es cualquier contrato que ponga de manifiesto una participación residual en los activos de una entidad, después de deducir todos sus pasivos. (Norma Internacional de Contabilidad, s.f. p. 2).
                 img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-4.svg", alt="", style="max-width: 155px").m-auto
       //- p.mb-5 Para ampliar la información pertinente a los instrumentos financieros (activos, pasivos e instrumentos de patrimonio), haga clic en el siguiente enlace:
 
@@ -67,9 +67,9 @@
             figure(data-aos="fade-up")
               img.mb-4.mb-lg-0(src="@/assets/curso/tema1/img-6.svg", alt="" style="max-width: 81px").m-auto
           .col-xl
-            p.mb-0 Norma Internacional de Información financiera NIIF 9 define cómo se deben reconocer y medir los instrumentos financieros.
+            p.mb-0 Norma Internacional de Información Financiera NIIF 9 define cómo se deben reconocer y medir los instrumentos financieros.
         
-        p.mb-0 La normativa que se debe tener en cuenta para la aplicación de Instrumentos Financieros es la siguiente:
+        p.mb-0 La normativa que se debe tener en cuenta para la aplicación de instrumentos financieros es la siguiente:
       .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-5.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4
 
@@ -78,7 +78,7 @@
       span Normativa para la aplicación de instrumentos financieros
     .px-4.py-5.mb-5(style="background-color: #F3F0EA")
       figure
-        img(src="@/assets/curso/tema1/img-7.svg" style="max-width: 540px").m-auto
+        img(src="@/assets/curso/tema1/img-7.svg" style="max-width: 540px" alt="Normativas para la aplicación de instrumentos financieros").m-auto
 
     .d-flex.flex-wrap
       .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
@@ -89,12 +89,12 @@
           li 
             .lista-ol--cuadro__vineta.v--green
               span a
-            | Lo previsto en la Sección 11 y Sección 12 si pertenece al grupo número dos Pymes.
+            | Lo previsto en la Sección 11 y Sección 12 si pertenece al grupo número dos pymes.
           li 
             .lista-ol--cuadro__vineta.v--green
               span b
             | Las disposiciones sobre reconocimiento y medición de la NIIF 9 Instrumentos financieros si pertenece al grupo número uno.
-        p.mb-0.p-4.px-lg-5(style="background-color: #DDEFFD") Cuando se aplique un cambio de una política contable se hará de forma retroactiva, como si la nueva política contable se hubiese aplicado siempre. Cuando sea impracticable determinar los efectos en cada periodo específico de un cambio en una política contable sobre la información comparativa para uno o más periodos anteriores para los que se presente información, la entidad aplicará la nueva política contable a los importes en libros de los activos y pasivos al principio del primer periodo para el que sea practicable la aplicación retroactiva, el cual podría ser el periodo actual.
+        p.mb-0.p-4.px-lg-5(style="background-color: #DDEFFD") Cuando se aplique un cambio de una política contable, se hará de forma retroactiva, como si la nueva política contable se hubiese aplicado siempre. Cuando sea impracticable determinar los efectos en cada periodo específico de un cambio en una política contable sobre la información comparativa para uno o más periodos anteriores para los que se presente información, la entidad aplicará la nueva política contable a los importes en libros de los activos y pasivos al principio del primer periodo para el que sea practicable la aplicación retroactiva, el cual podría ser el periodo actual.
 
     separador
 
@@ -141,12 +141,12 @@
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         p.p-4.px-lg-5.mb-4(style="background-color: #DDEFFD")
-          | #[b Ejemplo]
+          | #[b Ejemplo.]
           br
           br
-          | El 17/11/año 1 la sociedad Contable SAS vendió a crédito 5.000 unidades del producto ZV a $ 100,50 por unidad, se ha concedido sobre la factura un descuento de $ 11.400, El pago se realizará dentro de 2 años y el descuento es del 5 %.
+          | El 17/11/año 1, la sociedad Contable SAS vendió a crédito 5.000 unidades del producto ZV a $ 100,50 por unidad, se ha concedido sobre la factura un descuento de $ 11.400. El pago se realizará dentro de 2 años y el descuento es del 5 %.
         p El crédito constituye para el vendedor un activo financiero, pues es un derecho contractual.
-        p Como es una transacción a largo plazo año, se debe reconocer el valor del dinero en el tiempo a la tasa del 5 % efectiva anual, lo que implica el cálculo del valor presente del valor de la venta neta (491.100) para reconocer al final del año 1 y 2 el ajuste por concepto de los gastos financieros así:  
+        p Como es una transacción a largo plazo, se debe reconocer el valor del dinero en el tiempo a la tasa del 5 % efectiva anual, lo que implica el cálculo del valor presente del valor de la venta neta (491.100) para reconocer al final del año 1 y 2 el ajuste por concepto de los gastos financieros así:  
       .mx-auto.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-9.png", alt="", style="max-width: 472px").mx-auto.mb-4.ps-lg-4
 
@@ -262,7 +262,7 @@
             .row.mb-4.ajuste-espacios-movil.text-center
               .col.ajuste-h4
                 h4.mb-0(style="background-color: #EDF7FE")  Costo amortizado
-            p.mb-0 Es el #[b importe al que inicialmente fue valorado un pasivo financiero], menos los pagos de principal que se hubieran producido, #[b menos los intereses] correspondientes al período calculados] con la técnica del tipo de interés efectivo. (Super contable Sage, s.f p.9)
+            p.mb-0 Es el #[b importe al que inicialmente fue valorado un pasivo financiero], menos los pagos de principal que se hubieran producido, #[b menos los intereses] correspondientes a los períodos calculados con la técnica del tipo de interés efectivo. (Super contable Sage, s.f p. 9)
       .col-lg-6.espacio__cajas_movil
         .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #BCE0FC")
           .col
@@ -278,34 +278,34 @@
         figure
           img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
       .col
-        h3 Pasivos Financiero
+        h3 Pasivos financiero
     
     .d-flex.flex-wrap.mb-5
       .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-12.png" style="max-width: 502px").mx-auto
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
-        p.mb-4.p-4(style="background-color: #E6DCFB") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo sin embargo si es para negociar incluidos los instrumentos derivados se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p.9)
-        p #[b Valor Razonable:] es la intermediación efectiva que se hace a través de la oferta y demanda de forma libre, dicho de otra forma, es la interacción de un comprador y un vendedor, que se obligan y comprometen a transar una cantidad de bien determinando un precio y unas condiciones específicas en un mercado libre.
+        p.mb-4.p-4(style="background-color: #E6DCFB") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo, sin embargo, si es para negociar incluidos los instrumentos derivados se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p. 9)
+        p #[b Valor razonable:] es la intermediación efectiva que se hace a través de la oferta y demanda de forma libre, dicho de otra forma, es la interacción de un comprador y un vendedor, que se obligan y comprometen a transar una cantidad de bien determinando un precio y unas condiciones específicas en un mercado libre.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/img-title.svg" style="max-width: 70px").m-auto
       .col
-        h3 Reconocimiento y Medición
+        h3 Reconocimiento y medición
 
     .d-flex.flex-wrap.mb-5.fondo-slider(style="background: rgb(0,0,0); background: linear-gradient(0deg, transparent 0%, rgba(243,240,234,1) 25%, rgba(243,240,234,1) 75%, transparent 100%);")
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.mb-4 #[b Medición Inicial:] Se genera en el momento en que se realiza el hecho económico incluidos los costos indirectos de constitución del título.
-        p.mb-4 #[b Medición Posterior:] Se genera en los momentos futuros al reconocimiento inicial y comprende los ajustes propios del instrumento, dependiendo del modelo de negocio que implicó su reconocimiento como para negociar o para la venta, por ejemplo, de tal manera que cuando se presente la información financiera los instrumentos estén valorados correctamente.
-        p.mb-4  Según la normatividad los instrumentos financieros que se pueden medir a costo amortizado son todos aquellos en los que se desea mantener el activo para cobrar sus flujos de efectivo contractuales como, por ejemplo:
+        p.mb-4 #[b Medición inicial:] se genera en el momento en que se realiza el hecho económico incluidos los costos indirectos de constitución del título.
+        p.mb-4 #[b Medición posterior:] se genera en los momentos futuros al reconocimiento inicial y comprende los ajustes propios del instrumento, dependiendo del modelo de negocio que implicó su reconocimiento como para negociar o para la venta, por ejemplo, de tal manera que cuando se presente la información financiera los instrumentos estén valorados correctamente.
+        p.mb-4  Según la normatividad, los instrumentos financieros que se pueden medir a costo amortizado son todos aquellos en los que se desea mantener el activo para cobrar sus flujos de efectivo contractuales, como, por ejemplo:
         ul.lista-ul.mb-4
           li
             i.fas.fa-angle-right.txt--purple
-            | TES
+            | TES.
           li
             i.fas.fa-angle-right.txt--purple
-            | Bonos
+            | Bonos.
           li
             i.fas.fa-angle-right.txt--purple
             | Valor razonable todos aquellos que se adquieren con la intención de ser negociados.
@@ -338,14 +338,14 @@
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         p.p-4.px-lg-5.mb-4.mb-lg-0(style="background-color: #FEEAD4")
-          | #[b Ejemplo]
+          | #[b Ejemplo.]
           br
           br
-          | La empresa Contable SAS, adquiere un préstamo para desarrollar un proyecto de expansión, por $200.000.000 con una tasa de interés sobre el préstamo pactado en un 2,5%El interés pactado, 2,5% es el costo financiero que debe asumir por el préstamo recibido.
+          | La empresa Contable SAS, adquiere un préstamo para desarrollar un proyecto de expansión, por $200.000.000 con una tasa de interés sobre el préstamo pactado en un 2,5 % el interés pactado, 2,5 % es el costo financiero que debe asumir por el préstamo recibido.
       .mx-auto.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-14.svg", alt="", style="max-width: 505px").mx-auto.mb-4.mb-lg-0.ps-lg-4 
     p.p-4.px-lg-5.mb-4(style="background-color: #DDEFFD")
-      | #[b Ejemplo]
+      | #[b Ejemplo.]
       br
       br
       | Una empresa, pacta con una entidad financiera una obligación de $120.000, se pacta que, al finalizar 6 años, la empresa entrega a la entidad financiera $138.000 al finalizar los seis años.
@@ -447,7 +447,7 @@
             h4.mb-0 Provisiones:
         p Son obligaciones en las cuales no hay certeza en cuanto al monto ni en cuanto a la fecha para su cancelación.
         p.p-4.mb-4(style="background-color: #E6DCFB")
-          | #[b Ejemplo]
+          | #[b Ejemplo.]
           br
           br
           | Una organización espera el resultado de una demanda interpuesta por competencia desleal, los abogados estiman que la empresa tiene una probabilidad alta de perder, el veredicto lo darán los jueces dentro de dos años y se estima el valor de la indemnización en $3.000.000 de pesos.
@@ -460,10 +460,10 @@
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.p-4.mb-4(style="background-color: #DDEFFD") El emisor de un instrumento financiero lo clasificará en el momento de su reconocimiento como un pasivo financiero, un activo financiero o un instrumento de patrimonio de conformidad con el acuerdo contractual que protocoliza el instrumento. Una forma de distinguir un pasivo financiero de un instrumento de patrimonio es que exista una obligación contractual que recae sobre una cualquiera de las partes de entregar activos o intercambiar pasivos y activos de manera desfavorable para el emisor.
+        p.p-4.mb-4(style="background-color: #DDEFFD") El emisor de un instrumento financiero lo clasificará en el momento de su reconocimiento como un pasivo financiero, un activo financiero o un instrumento de patrimonio de conformidad con el acuerdo contractual que protocoliza el instrumento. Una forma de distinguir un pasivo financiero de un instrumento de patrimonio es que exista una obligación contractual que recae sobre cualquiera de las partes de entregar activos o intercambiar pasivos y activos de manera desfavorable para el emisor.
         p Por ejemplo, si se trata de una acción preferencial, esta será reconocida como un pasivo financiero si el emisor está obligado a reembolsar por una cantidad acordada.
 
-        p En el caso de un instrumento con opción de venta, es decir que el tenedor debe devolverlo al emisor a cambio de efectivo u otro activo se reconoce como un pasivo financiero.
+        p En el caso de un instrumento con opción de venta, es decir, que el tenedor debe devolverlo al emisor a cambio de efectivo u otro activo se reconoce como un pasivo financiero.
         
       .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-16.png", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
@@ -482,41 +482,41 @@
           ul.lista-ul.mb-4
             li
               i.fas.fa-angle-right.txt--purple
-              | Bonos, certificados de depósito a término (CDT)
+              | Bonos, certificados de depósito a término (CDT).
             li
               i.fas.fa-angle-right.txt--purple
-              | Aceptaciones bancarias
+              | Aceptaciones bancarias.
             li
               i.fas.fa-angle-right.txt--purple
-              | Pagarés
+              | Pagarés.
             li
               i.fas.fa-angle-right.txt--purple
-              | Préstamos
+              | Préstamos.
             li
               i.fas.fa-angle-right.txt--purple
-              | Cuentas por cobrar
+              | Cuentas por cobrar.
           p.fw-bold Instrumentos financieros de cobertura, derivados.
           ul.lista-ul.mb-4
             li
               i.fas.fa-angle-right.txt--purple
-              | Opciones
+              | Opciones.
             li
               i.fas.fa-angle-right.txt--purple
-              | #[em Forwards]
+              | #[em Forwards].
             li
               i.fas.fa-angle-right.txt--purple
-              | Futuros
+              | Futuros.
         .mx-auto.col-md-6.col-lg-6.order-1.order-lg-2
           img(src="@/assets/curso/tema1/img-17.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4  
 
-    p.mb-5 Los instrumentos de cobertura son derivados, es decir, activos cuya evolución depende de la que sigan otros (conocidos como subyacentes). Su popularidad se apoya, entre otros factores, en el hecho de que los futuros y muchas opciones se negocien en mercados organizados lo que permite que estos productos estén al alcance de pequeños inversores.
+    p.mb-5 Los instrumentos de cobertura son derivados, es decir, activos cuya evolución depende de la que sigan otros (conocidos como subyacentes). Su popularidad se apoya, entre otros factores, en el hecho de que los futuros y muchas opciones se negocien en mercados organizados, lo que permite que estos productos estén al alcance de pequeños inversores.
 
     .d-flex.flex-wrap.mb-5
       .col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-18.svg" style="max-width: 502px").mx-auto
       .d-flex.col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
         p.p-4.mb-4.mb-lg-0(style="background-color: #FEEAD4")
-          | #[b Ejemplo]
+          | #[b Ejemplo.]
           br
           br
           | La sociedad Contable SAS realiza el 1/1/AÑO 1 una suscripción de bonos no cotizados cuyas condiciones son las siguientes:
@@ -787,30 +787,30 @@
 
     #t_1_7.titulo-segundo.color-acento-contenido
       h2 1.7 Reconocimiento, medición, presentación, revelación
-    p.mb-5 En el presente ítem se aborda conceptos que determinan el reconocimiento de los instrumentos de patrimonio, a su vez presenta ejemplos que acompañan el proceso de aplicabilidad.
+    p.mb-5 En el presente ítem se abordan conceptos que determinan el reconocimiento de los instrumentos de patrimonio; a su vez, presenta ejemplos que acompañan el proceso de aplicabilidad.
 
     .row.mb-5.ajuste-espacios-movil.pt-5
       .col-xl
         TabsA.color-acento-botones.mb-4
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
-            h4 Reconocimiento:
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Reconocimiento")
+            h4 Reconocimiento
             .d-flex.flex-wrap.align-items-center.gap-3
               p.order-2.order-md-1.col-12.col-md La entidad reconocerá un instrumento financiero en sus informes financieros cuando se convierta en parte del contrato o negocio jurídico conforme a las disposiciones de este.
               img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-27.svg", alt="", style="max-width: 155px").m-auto
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
-            h4 Medición Inicial
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Medición inicial")
+            h4 Medición inicial
             .d-flex.flex-wrap.align-items-center.gap-3
               p.order-2.order-md-1.col-12.col-md Los activos y los pasivos financieros se valoran inicialmente por su valor razonable que es el precio del hecho económico salvo evidencia en contrario.
               img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-28.svg", alt="", style="max-width: 155px").m-auto
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
-            h4 Medición Posterior
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Medición posterior")
+            h4 Medición posterior
             .d-flex.flex-wrap.align-items-center.gap-3
               p.order-2.order-md-1.col-12.col-md Es la forma de reconocer en los estados financieros de manera posterior, el importe del instrumento con el reconocimiento de los ajustes correspondientes dependiendo de la forma como es reconocido y medido el título.
                 br
                 br
                 |La medición se efectúa de acuerdo con el modelo de negocio del suscriptor. A valor razonable con cambios en el resultado del ejercicio, a costo amortizado con el interés efectivo y a valor razonable con cambios en el patrimonio de la sociedad. 
               img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-29.svg", alt="", style="max-width: 155px").m-auto
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Presentación")
             h4 Presentación
             .d-flex.flex-wrap.align-items-center.gap-3
               p.order-2.order-md-1.col-12.col-md El emisor del título lo presentará clasificándolo en sus estados financieros totalmente o en la parte correspondiente, como un pasivo financiero, un activo financiero o un instrumento de patrimonio, de conformidad con las definiciones y características del hecho económico.
@@ -819,11 +819,11 @@
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.p-4.mb-4(style="background-color: #F3F0EA") Ejemplo
+        p.p-4.mb-4(style="background-color: #F3F0EA") #[b Ejemplo.]
           br
           br
-          |La sociedad Contable SAS consultores adquiere un préstamo para compra de una propiedad inmobiliaria, por un valor de $128.000.000, le descuentan $400.000 para gastos de estudio del crédito. La tasa pactada es del 18 % EA, con pago a 5 cuotas anuales iguales.
-        p Calculamos el valor de la cuota utilizando la herramienta pago en funciones financieras
+          |La sociedad Contable SAS Consultores adquiere un préstamo para compra de una propiedad inmobiliaria, por un valor de $128.000.000, le descuentan $400.000 para gastos de estudio del crédito. La tasa pactada es del 18 % EA, con pago a 5 cuotas anuales iguales.
+        p Calculamos el valor de la cuota utilizando la herramienta pago en funciones financieras:
           br
           br
           | =PAGO

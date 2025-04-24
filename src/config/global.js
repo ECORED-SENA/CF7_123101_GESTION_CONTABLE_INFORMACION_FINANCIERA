@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Reconocimiento y medición de instrumentos financieros',
     Description:
-      'La contabilidad, como herramienta financiera y operativa para las organizaciones se enfrenta continuamente a mayores retos originados por la exactitud y puntualidad con que se requiere la información que genera, por lo cual Colombia se ha visto beneficiada con la estandarización de la información establecida por la ley 1314 de 2009 y los decretos que la reglamentan; estos ofrecen la posibilidad de preparar información financiera enmarcada dentro de unos criterios de reconocimiento de los hechos económicos y de medición, que implican importes de los elementos de la información financiera acorde con las condiciones macroeconómicas de la región donde se preparan los estados financieros.',
+      'La contabilidad, como herramienta financiera y operativa para las organizaciones, se enfrenta continuamente a mayores retos originados por la exactitud y puntualidad con que se requiere la información que genera, por lo cual Colombia se ha visto beneficiada con la estandarización de la información establecida por la ley 1314 de 2009 y los decretos que la reglamentan; estos ofrecen la posibilidad de preparar información financiera enmarcada dentro de unos criterios de reconocimiento de los hechos económicos y de medición, que implican importes de los elementos de la información financiera acorde con las condiciones macroeconómicas de la región donde se preparan los estados financieros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -219,7 +219,7 @@ export default {
         'Es la estructura caracterizada por códigos o números que acorde a su naturaleza identifican partidas contables inherentes a estados financieros dentro de cada una de sus estructuras, sirven para construir contabilidad y dar un orden al lenguaje de los negocios, atendiendo siempre el principio universal de la partida doble.',
     },
     {
-      termino: 'Debe y Haber',
+      termino: 'Debe y haber',
       significado:
         'Es el reconocimiento que toda cuenta contable presenta aumentos y disminuciones acorde a la naturaleza de las cuentas, en ese sentido las cuentas de activos, presentan sus aumentos en el debe y disminuciones en el haber, para las cuentas del pasivo, los aumentos de realizan en el haber y las disminuciones en el debe, para las cuentas del patrimonio, los aumentos se realizan en el haber y las disminuciones en el debe, para los ingresos los aumentos se registran en el haber y las disminuciones en el debe, en el caso de los gastos los aumentos se efectúan en el debe al igual que las cuentas de costos.',
     },
