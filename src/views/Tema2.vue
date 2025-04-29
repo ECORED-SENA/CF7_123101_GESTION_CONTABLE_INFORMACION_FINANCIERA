@@ -501,13 +501,13 @@
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2010, P, A256.
+              p #[b Enlace web.] Ministerio de Comercio, Industria y Turismo, 2012.
         .col-xl.mb-4.px-0
           a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-discusion-publica/enmienda-a-la-niif-9-instrumentos/doc-ctcp-xl8w9-141" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2019 Página 5.
+              p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2014.
         .col-xl.mb-4.px-0
           a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534365029-7113" target="_blank")
             .anexo__icono
