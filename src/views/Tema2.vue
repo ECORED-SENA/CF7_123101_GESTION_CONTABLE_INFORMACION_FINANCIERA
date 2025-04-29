@@ -32,7 +32,7 @@
           figure(data-aos="fade-up").d-none.d-xl-block
             img(src="@/assets/curso/tema1/img-1.png", alt="" style="max-width: 100px").m-auto
         .col-xl
-          p.mb-0.text-white.fw-bold En el presente ítem se abordan conceptos que determinan el reconocimiento de los instrumentos de patrimoni; a su vez, presenta ejemplos que acompañan el proceso de aplicabilidad.
+          p.mb-0.text-white.fw-bold En el presente ítem se abordan conceptos que determinan el reconocimiento de los instrumentos de patrimonio; a su vez, presenta ejemplos que acompañan el proceso de aplicabilidad.
         
       .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
@@ -203,7 +203,7 @@
               | #[b Autorizado:] es el valor máximo de capitalización de una sociedad. 
             li
               i.fas.fa-angle-right.txt--purple
-              | #[b Suscrito:] es la parte del capital autorizado, que los accionistas se comprometen a pagar, como si fuera una venta a plazos, sin superar el año, artículo 387 del Código del Comercio. Para el caso de las sociedades simplificadas por acciones S.A.S, el plazo es de dos años acorde a la Ley 1258 de 2008, artículo 387. 
+              | #[b Suscrito:] es la parte del capital autorizado, que los accionistas se comprometen a pagar, como si fuera una venta a plazos, sin superar el año, artículo 387 del Código del Comercio. Para el caso de las sociedades simplificadas por acciones S.A.S., el plazo es de dos años acorde a la Ley 1258 de 2008, artículo 387. 
             li
               i.fas.fa-angle-right.txt--purple
               | #[b Pagado:] es la parte del capital suscrito que los accionistas han cancelado y que efectivamente se encuentra en poder de la sociedad.
@@ -314,15 +314,15 @@
               figure(data-aos="fade-up")
                 img.mb-4.mb-lg-0(src="@/assets/curso/tema2/img-12.svg", alt="" style="max-width: 81px").m-auto
             .col-xl
-              p.mb-0 Es el dinero guardado que no es entregado a los accionistas en forma de dividendos, estas ganancias se encuentran en el patrimonio como ganancias acumuladas en el estado de Situación Financiera.
-          p.mb-0 De igual forma se relaciona en el estado de cambios en el patrimonio; cuyo objetivo, es mostrar los cambios o variaciones presentadas de un periodo a otro. Entre las variaciones que se analizan y que son significativas para dicho estado financiero, se puede observar la política de dividendos que maneja la entidad, donde se encuentra estipulado no distribuir el 100 % de las utilidades del ejercicio, de tal manera, que la parte no decretada para reparto, queda acumulada hasta tanto los socios decidan distribuirla entre los accionistas.
+              p.mb-0 Es el dinero guardado que no es entregado a los accionistas en forma de dividendos, estas ganancias se encuentran en el patrimonio como ganancias acumuladas en el estado de situación financiera.
+          p.mb-0 De igual forma, se relaciona en el estado de cambios en el patrimonio; cuyo objetivo, es mostrar los cambios o variaciones presentadas de un periodo a otro. Entre las variaciones que se analizan y que son significativas para dicho estado financiero, se puede observar la política de dividendos que maneja la entidad, donde se encuentra estipulado no distribuir el 100 % de las utilidades del ejercicio, de tal manera, que la parte no decretada para reparto, queda acumulada hasta tanto los socios decidan distribuirla entre los accionistas.
 
     separador
 
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Reservas
     
-    p.mb-5 Están contempladas en el artículo 452, 453 y 454 del Código del comercio, sección II reparto de utilidades.
+    p.mb-5 Están contempladas en los artículos 452, 453 y 454 del Código del comercio, sección II reparto de utilidades.
 
     TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Art. 452" style="background-color: #F9F7F4")
@@ -347,10 +347,10 @@
         .d-flex.flex-wrap.col-xl-11.mx-auto
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
             h4 Incremento en el porcentaje de distribución de utilidades
-            p Art. 454. Incremento en el porcentaje de distribución de utilidades. Si la suma de las reservas legal, estatutaria y ocasional excediere del ciento por ciento (100 %) del capital suscrito, el porcentaje obligatorio de utilidades líquidas que deberá repartir la sociedad conforme al artículo 155, se elevará al setenta por ciento. (Código de Comercio Colombiano. 1971)
+            p Art. 454. Incremento en el porcentaje de distribución de utilidades. Si la suma de las reservas legal, estatutaria y ocasional excediere del ciento por ciento (100 %) del capital suscrito, el porcentaje obligatorio de utilidades líquidas que deberá repartir la sociedad conforme al artículo 155, se elevará al setenta por ciento. (Código de Comercio Colombiano, 1971).
               br
               br
-              |La reserva legal es un ahorro que las empresas por mandato legal en Colombia están obligadas a utilizar con el fin de proteger el capital y preservar las empresas en el futuro evitando disolverse o liquidarse por la disminución de su patrimonio. Las sociedades limitadas, las anónimas, en comandita por acciones y las extranjeras. Deben hacer uso de la figura reserva legal. En el primer año, no se efectúan reservas; es decir, no aplica el 10 % sobre las utilidades.
+              |La reserva legal es un ahorro que las empresas por mandato legal en Colombia están obligadas a utilizar con el fin de proteger el capital y preservar las empresas en el futuro evitando disolverse o liquidarse por la disminución de su patrimonio. Las sociedades limitadas, las anónimas, las en comandita por acciones y las extranjeras. Deben hacer uso de la figura reserva legal. En el primer año, no se efectúan reservas; es decir, no aplica el 10 % sobre las utilidades.
           .col-12.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
@@ -371,10 +371,10 @@
       .py-3.py-md-4(titulo="Art. 371" style="background-color: #F9F7F4")
         .d-flex.flex-wrap.col-xl-11.mx-auto
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
-            p Art. 371. Reserva legal, balances y reparto de utilidades. La sociedad formará una reserva legal, con sujeción a las reglas establecidas para la anónima. Estas mismas reglas se observarán en cuanto a los balances de fin de ejercicio y al reparto de utilidades. (Código de Comercio Colombiano. 2020b).
+            p Art. 371. Reserva legal, balances y reparto de utilidades. La sociedad formará una reserva legal, con sujeción a las reglas establecidas para la anónima. Estas mismas reglas se observarán en cuanto a los balances de fin de ejercicio y al reparto de utilidades. (Código de Comercio Colombiano, 2020b).
               br
               br
-              |En las sociedades extranjeras aplicará el 10 % de reserva legal, como es aplicada en las sociedades anónimas sin importar el tamaño de la empresa.
+              |En las sociedades extranjeras aplicará el 10 % de reserva legal, como es aplicado en las sociedades anónimas, sin importar el tamaño de la empresa.
           .col-12.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
@@ -410,7 +410,7 @@
                   tr
                     td.py-3(colspan="2").fw-bold.text-start Utilidad a distribuir a los o accionistas
                     td.py-3.texto-right $ 3.060.000,00
-          p.col-12.order-3 Frente a la utilidad se aplica el porcentaje vigente definido en cada reforma tributaria, el resultado obtenido, se aplica el 10 % de reserva legal y se resta a la utilidad líquida.
+          p.col-12.order-3 Frente a la utilidad se aplica el porcentaje vigente definido en cada reforma tributaria, del resultado obtenido, se aplica el 10 % de reserva legal y se resta a la utilidad líquida.
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido
@@ -497,7 +497,7 @@
     .d-flex.flex-wrap
       .col-lg-6.mx-auto.py-5.mb-5.order-2.order-lg-1(data-aos="fade-right")
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.aplicaciones-mcit.gov.co/adjuntos/niif/12_ES_BV2012_IFRS07_PART%20A.pdf" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.aplicaciones-mcit.gov.co/adjuntos/niif/12_ES_BV2012_IFRS07_PARTª20A.pdf" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto

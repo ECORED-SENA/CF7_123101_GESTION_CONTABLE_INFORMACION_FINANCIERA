@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Reconocimiento y medición de instrumentos financieros',
     Description:
-      'La contabilidad, como herramienta financiera y operativa para las organizaciones, se enfrenta continuamente a mayores retos originados por la exactitud y puntualidad con que se requiere la información que genera, por lo cual Colombia se ha visto beneficiada con la estandarización de la información establecida por la ley 1314 de 2009 y los decretos que la reglamentan; estos ofrecen la posibilidad de preparar información financiera enmarcada dentro de unos criterios de reconocimiento de los hechos económicos y de medición, que implican importes de los elementos de la información financiera acorde con las condiciones macroeconómicas de la región donde se preparan los estados financieros.',
+      'La contabilidad, como herramienta financiera y operativa para las organizaciones, se enfrenta continuamente a mayores retos originados por la exactitud y puntualidad con que se requiere la información que genera, por lo cual Colombia se ha visto beneficiada con la estandarización de la información establecida por la Ley 1314 de 2009 y los decretos que la reglamentan; estos ofrecen la posibilidad de preparar información financiera enmarcada dentro de unos criterios de reconocimiento de los hechos económicos y de medición, que implican importes de los elementos de la información financiera acorde con las condiciones macroeconómicas de la región donde se preparan los estados financieros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -82,7 +82,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Instrumentos de patrimonio',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -196,10 +196,10 @@ export default {
     {
       termino: 'Depreciación',
       significado:
-        'Es la disminución que sufren los activos fijos, que incluyen la propiedad planta y equipo que pierden valor con motivo de la inflación y el desgaste por su uso que se hacen obsoletos. ',
+        'Es la disminución que sufren los activos fijos, que incluyen la propiedad, planta y equipo que pierden valor con motivo de la inflación y el desgaste por su uso que se hacen obsoletos. ',
     },
     {
-      termino: 'Método de Interés efectivo',
+      termino: 'Método de interés efectivo',
       significado:
         'Es un método de cálculo del costo amortizado de un activo o pasivo financiero y de distribución del ingreso por intereses o gasto por intereses a lo largo del periodo correspondiente. (Moya Moreno, 2015).',
     },
@@ -216,12 +216,12 @@ export default {
     {
       termino: 'Cuenta',
       significado:
-        'Es la estructura caracterizada por códigos o números que acorde a su naturaleza identifican partidas contables inherentes a estados financieros dentro de cada una de sus estructuras, sirven para construir contabilidad y dar un orden al lenguaje de los negocios, atendiendo siempre el principio universal de la partida doble.',
+        'Es la estructura caracterizada por códigos o números que, acorde a su naturaleza, identifican partidas contables inherentes a estados financieros dentro de cada una de sus estructuras, sirven para construir contabilidad y dar un orden al lenguaje de los negocios, atendiendo siempre el principio universal de la partida doble.',
     },
     {
       termino: 'Debe y haber',
       significado:
-        'Es el reconocimiento que toda cuenta contable presenta aumentos y disminuciones acorde a la naturaleza de las cuentas, en ese sentido las cuentas de activos, presentan sus aumentos en el debe y disminuciones en el haber, para las cuentas del pasivo, los aumentos de realizan en el haber y las disminuciones en el debe, para las cuentas del patrimonio, los aumentos se realizan en el haber y las disminuciones en el debe, para los ingresos los aumentos se registran en el haber y las disminuciones en el debe, en el caso de los gastos los aumentos se efectúan en el debe al igual que las cuentas de costos.',
+        'Es el reconocimiento de que toda cuenta contable presenta aumentos y disminuciones acorde a la naturaleza de las cuentas; en ese sentido, las cuentas de activos, presentan sus aumentos en el debe y disminuciones en el haber, para las cuentas del pasivo, los aumentos se realizan en el haber y las disminuciones en el debe, para las cuentas del patrimonio, los aumentos se realizan en el haber y las disminuciones en el debe, para los ingresos, los aumentos se registran en el haber y las disminuciones en el debe, en el caso de los gastos, los aumentos se efectúan en el debe, al igual que las cuentas de costos.',
     },
   ],
   referencias: [
@@ -266,7 +266,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del Ecosistema',
+          cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -297,7 +297,7 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -314,25 +314,25 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

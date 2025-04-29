@@ -20,9 +20,9 @@
             .tarjeta.color-acento-botones--borde.p-4(titulo="Activo financiero")
               h4 Activo financiero
               .d-flex.flex-wrap.align-items-center.gap-3
-                p.order-2.order-md-1.col-12.col-md Los activos financieros se clasifican de acuerdo al modelo de negocio del suscriptor en tres categorías: a su costo amortizado, a valor razonable con cambios en el patrimonio (otro resultado integral) o a valor razonable con cambios en pérdidas y ganancias dependiendo de las características de los flujos de efectivo descritos en el documento que protocoliza el instrumento financiero, por ejemplo, el cobro de los rendimientos generados por el activo o tener la intención de vender el activo. (Norma internacional de información financiera, 2016, p. 9)
+                p.order-2.order-md-1.col-12.col-md Los activos financieros se clasifican de acuerdo al modelo de negocio del suscriptor en tres categorías: a su costo amortizado, a valor razonable con cambios en el patrimonio (otro resultado integral) o a valor razonable con cambios en pérdidas y ganancias, dependiendo de las características de los flujos de efectivo descritos en el documento que protocoliza el instrumento financiero, por ejemplo, el cobro de los rendimientos generados por el activo o tener la intención de vender el activo. (Norma internacional de información financiera, 2016, p. 9).
                 img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-2.svg", alt="", style="max-width: 155px").m-auto
-            .tarjeta.color-acento-botones--borde.p-4(titulo="Pasivo Financiero")
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Pasivo financiero")
               h4 Pasivo financiero
               .d-flex.flex-wrap.align-items-center.gap-3
                 p.order-2.order-md-1.col-12.col-md Generalmente, los pasivos financieros se miden a costo amortizado, excepto aquellos pasivos financieros que se mantienen para negociar, como por ejemplo los derivados, que se valoran a valor razonable con cambios en resultados.
@@ -67,7 +67,7 @@
             figure(data-aos="fade-up")
               img.mb-4.mb-lg-0(src="@/assets/curso/tema1/img-6.svg", alt="" style="max-width: 81px").m-auto
           .col-xl
-            p.mb-0 Norma Internacional de Información Financiera NIIF 9 define cómo se deben reconocer y medir los instrumentos financieros.
+            p.mb-0 La Norma Internacional de Información Financiera NIIF 9 define cómo se deben reconocer y medir los instrumentos financieros.
         
         p.mb-0 La normativa que se debe tener en cuenta para la aplicación de instrumentos financieros es la siguiente:
       .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
@@ -78,7 +78,7 @@
       span Normativa para la aplicación de instrumentos financieros
     .px-4.py-5.mb-5(style="background-color: #F3F0EA")
       figure
-        img(src="@/assets/curso/tema1/img-7.svg" style="max-width: 540px" alt="Normativas para la aplicación de instrumentos financieros").m-auto
+        img(src="@/assets/curso/tema1/img-7.svg" style="max-width: 540px" alt="Diagrama sobre normativa para la aplicación de instrumentos financieros que incluye la NIC 32 relacionada con alcance y definiciones, las NIIF 9 y NIC 39 sobre medición y reconocimiento, y la NIIF 7 enfocada en revelación.").m-auto
 
     .d-flex.flex-wrap
       .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
@@ -109,7 +109,7 @@
       .col
         h3 Activo financiero
     
-    p.mb-5 Un activo financiero es cualquier activo que posea la forma de efectivo, instrumento de patrimonio neto de otra entidad o que represente un derecho contractual o un contrato que pueda ser liquidado utilizando instrumentos de patrimonio propio de la entidad, los activos financieros deben ser medidos al costo amortizado, pero si son mantenidos para negociar se miden a valor razonable con cambios en el resultado del ejercicio.
+    p.mb-5 Un activo financiero es cualquier activo que posea la forma de efectivo, instrumento de patrimonio neto de otra entidad o que represente un derecho contractual o un contrato que pueda ser liquidado utilizando instrumentos de patrimonio propio de la entidad. Los activos financieros deben ser medidos al costo amortizado, pero si son mantenidos para negociar, se miden a valor razonable con cambios en el resultado del ejercicio.
 
     .col-12.col-lg-10.col-xl-8.mx-auto.mb-5(data-aos="fade-right")
       .titulo-sexto.color-acento-contenido.mb-3
@@ -262,7 +262,7 @@
             .row.mb-4.ajuste-espacios-movil.text-center
               .col.ajuste-h4
                 h4.mb-0(style="background-color: #EDF7FE")  Costo amortizado
-            p.mb-0 Es el #[b importe al que inicialmente fue valorado un pasivo financiero], menos los pagos de principal que se hubieran producido, #[b menos los intereses] correspondientes a los períodos calculados con la técnica del tipo de interés efectivo. (Super contable Sage, s.f p. 9)
+            p.mb-0 Es el #[b importe al que inicialmente fue valorado un pasivo financiero], menos los pagos de principal que se hubieran producido, #[b menos los intereses] correspondientes a los períodos calculados con la técnica del tipo de interés efectivo. (Supercontable Sage, s.f p. 9).
       .col-lg-6.espacio__cajas_movil
         .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #BCE0FC")
           .col
@@ -270,8 +270,8 @@
               img(src='@/assets/curso/tema1/img-11.svg', alt='' style="max-width: 95px").m-auto
             .row.mb-4.ajuste-espacios-movil.text-center
               .col.ajuste-h4
-                h4.mb-0(style="background-color: #EDF7FE") Método de la tasa de Interés Efectiva
-            p.mb-0 Es un método para calcular el costo amortizado de un pasivo, calculando la tasa de descuento para igualar los flujos de efectivo, en el periodo cero o periodo de medición, es decir es la tasa que se le aplicará al instrumento financiero para calcular los intereses. Tomado de: Actualícese (2017, 17 de mayo).
+                h4.mb-0(style="background-color: #EDF7FE") Método de la tasa de interés efectiva
+            p.mb-0 Es un método para calcular el costo amortizado de un pasivo, calculando la tasa de descuento para igualar los flujos de efectivo, en el periodo cero o periodo de medición; es decir, es la tasa que se le aplicará al instrumento financiero para calcular los intereses. Tomado de: Actualícese (2017, 17 de mayo).
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -284,7 +284,7 @@
       .col-md-7.col-lg-5.mb-4.mb-lg-0.mx-auto(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img-12.png" style="max-width: 502px").mx-auto
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
-        p.mb-4.p-4(style="background-color: #E6DCFB") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo, sin embargo, si es para negociar incluidos los instrumentos derivados se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p. 9)
+        p.mb-4.p-4(style="background-color: #E6DCFB") Es cualquier pasivo que represente una obligación contractual de entregar dinero u otro activo financiero a otra entidad o de intercambiar activos financieros o pasivos financieros con otra entidad o un contrato que sea liquidado utilizando los instrumentos de patrimonio propio de la entidad, debe ser medido al costo amortizado utilizando la técnica del interés efectivo, sin embargo, si es para negociar, incluidos los instrumentos derivados, se mide a valor razonable con cambios en el estado de resultados. (Instrumentos financieros NIC 32 s.f p. 9).
         p #[b Valor razonable:] es la intermediación efectiva que se hace a través de la oferta y demanda de forma libre, dicho de otra forma, es la interacción de un comprador y un vendedor, que se obligan y comprometen a transar una cantidad de bien determinando un precio y unas condiciones específicas en un mercado libre.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -296,8 +296,8 @@
 
     .d-flex.flex-wrap.mb-5.fondo-slider(style="background: rgb(0,0,0); background: linear-gradient(0deg, transparent 0%, rgba(243,240,234,1) 25%, rgba(243,240,234,1) 75%, transparent 100%);")
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.mb-4 #[b Medición inicial:] se genera en el momento en que se realiza el hecho económico incluidos los costos indirectos de constitución del título.
-        p.mb-4 #[b Medición posterior:] se genera en los momentos futuros al reconocimiento inicial y comprende los ajustes propios del instrumento, dependiendo del modelo de negocio que implicó su reconocimiento como para negociar o para la venta, por ejemplo, de tal manera que cuando se presente la información financiera los instrumentos estén valorados correctamente.
+        p.mb-4 #[b Medición inicial:] se genera en el momento en que se realiza el hecho económico, incluidos los costos indirectos de constitución del título.
+        p.mb-4 #[b Medición posterior:] se genera en los momentos futuros al reconocimiento inicial y comprende los ajustes propios del instrumento, dependiendo del modelo de negocio que implicó su reconocimiento como para negociar o para la venta, por ejemplo, de tal manera que cuando se presente la información financiera, los instrumentos estén valorados correctamente.
         p.mb-4  Según la normatividad, los instrumentos financieros que se pueden medir a costo amortizado son todos aquellos en los que se desea mantener el activo para cobrar sus flujos de efectivo contractuales, como, por ejemplo:
         ul.lista-ul.mb-4
           li
@@ -308,7 +308,7 @@
             | Bonos.
           li
             i.fas.fa-angle-right.txt--purple
-            | Valor razonable todos aquellos que se adquieren con la intención de ser negociados.
+            | Valor razonable: todos aquellos que se adquieren con la intención de ser negociados.
       .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-13.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
 
@@ -333,7 +333,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Obligaciones con terceros
     
-    p.mb-5 Todos los desembolsos requeridos para obtener un crédito con una entidad financiera como: estudios de créditos, seguros, entre otros, se deben reconocer en el préstamo. A continuación, encuentra ejemplos que permiten acercarse a un ejercicio real y cotidiano.
+    p.mb-5 Todos los desembolsos requeridos para obtener un crédito con una entidad financiera como estudios de créditos, seguros, entre otros, se deben reconocer en el préstamo. A continuación, encuentra ejemplos que permiten acercarse a un ejercicio real y cotidiano.
 
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
@@ -350,7 +350,7 @@
       br
       | Una empresa, pacta con una entidad financiera una obligación de $120.000, se pacta que, al finalizar 6 años, la empresa entrega a la entidad financiera $138.000 al finalizar los seis años.
 
-    p.mb-5 Determinó el interés efectivo incluida en la negociación utilizando la TIR.
+    p.mb-5 Determinó el interés efectivo incluido en la negociación utilizando la TIR.
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 6.
@@ -386,7 +386,7 @@
               td.fw-bold 6
               td.texto-right 2,4 %
 
-    p.mb-5 Tabla de amortización: para determinar los costos financieros a ajustar en cada periodo
+    p.mb-5 Tabla de amortización: para determinar los costos financieros a ajustar en cada periodo.
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 7.
@@ -471,9 +471,9 @@
     separador
 
     #t_1_6.titulo-segundo.color-acento-contenido
-      h2 1.6 Instrumentos Financieros Pasivos y Activos
+      h2 1.6 Instrumentos financieros pasivos y activos
 
-    p.mb-5 Para el caso de los instrumentos financieros pasivos y activos aplica la Norma Internacional de Información Financiera (NIIF) 9.
+    p.mb-5 Para el caso de los instrumentos financieros pasivos y activos, aplica la Norma Internacional de Información Financiera (NIIF) 9.
 
     .fondo-slider.pt-5.mb-5(style="background-color: #F3F0EA")
       .d-flex.flex-wrap.col-xl-10.mx-auto
@@ -553,7 +553,7 @@
             td.texto-right 1000
             td.texto-right Pesos
           tr
-            td.fw-bold Interés anua
+            td.fw-bold Interés anual
             td.texto-right 3 %
             td.texto-right EA
     p Se requiere:
@@ -800,7 +800,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Medición inicial")
             h4 Medición inicial
             .d-flex.flex-wrap.align-items-center.gap-3
-              p.order-2.order-md-1.col-12.col-md Los activos y los pasivos financieros se valoran inicialmente por su valor razonable que es el precio del hecho económico salvo evidencia en contrario.
+              p.order-2.order-md-1.col-12.col-md Los activos y los pasivos financieros se valoran inicialmente por su valor razonable, que es el precio del hecho económico salvo evidencia en contrario.
               img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-28.svg", alt="", style="max-width: 155px").m-auto
           .tarjeta.color-acento-botones--borde.p-4(titulo="Medición posterior")
             h4 Medición posterior
