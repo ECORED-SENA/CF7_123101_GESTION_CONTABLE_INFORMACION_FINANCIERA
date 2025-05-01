@@ -497,7 +497,7 @@
     .d-flex.flex-wrap
       .col-lg-6.mx-auto.py-5.mb-5.order-2.order-lg-1(data-aos="fade-right")
         .col-xl.mb-4.px-0
-          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="http://www.aplicaciones-mcit.gov.co/adjuntos/niif/12_ES_BV2012_IFRS07_PARTª20A.pdf" target="_blank")
+          a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.aplicaciones-mcit.gov.co/adjuntos/niif/12_ES_BV2012_IFRS07_PART%20A.pdf" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
