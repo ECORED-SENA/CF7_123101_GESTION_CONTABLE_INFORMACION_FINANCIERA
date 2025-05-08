@@ -123,20 +123,20 @@
               th Valor
           tbody
             tr
-              td.fw-bold Precio factura
-              td.texto-right $ 502.500
+              td.text-start Precio factura
+              td.text-end $502.500
             tr
-              td.fw-bold Descuento
-              td.texto-right $ 11.400
+              td.text-start Descuento
+              td.text-end $11.400
             tr
-              td.fw-bold Base gravable
-              td.texto-right $ 491.100
+              td.text-start Base gravable
+              td.text-end $491.100
             tr
-              td.fw-bold IVA 19 %
-              td.texto-right $ 95.475
+              td.text-start IVA 19 %
+              td.text-end $95.475
             tr
-              td.fw-bold Total, facturado
-              td.texto-right $ 586.575
+              td.text-start Total, facturado
+              td.text-end $586.575
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
@@ -168,15 +168,15 @@
                     th Haber
                 tbody
                   tr
-                    td.fw-bold Activo largo plazo
-                    td Clientes a largo plazo
-                    td $ 22.272,11
-                    td -
+                    td.text-start Activo largo plazo
+                    td.text-start Clientes a largo plazo
+                    td.text-end $22.272,11
+                    td.text-end -
                   tr
-                    td.fw-bold Ingreso
-                    td Ingreso financiero
-                    td -
-                    td $ 22.272,11
+                    td.text-start Ingreso
+                    td.text-start Ingreso financiero
+                    td.text-end -
+                    td.text-end $22.272,11
           .col-lg-8.mb-4.col-xs-12.mx-auto
             p.mb-4.fw-bold Al final del año 2 reconocimiento posterior del componente financiero
             .titulo-sexto.color-acento-contenido.mb-3
@@ -192,15 +192,15 @@
                     th Haber
                 tbody
                   tr
-                    td.fw-bold Activo largo plazo
-                    td Clientes a largo plazo
-                    td $ 23.385,71
-                    td -
+                    td.text-start Activo largo plazo
+                    td.text-start Clientes a largo plazo
+                    td.text-end $23.385,71
+                    td.text-end -
                   tr
-                    td.fw-bold Ingreso
-                    td Ingreso financiero
-                    td -
-                    td $ 23.385,71
+                    td.text-start Ingreso
+                    td.text-start Ingreso financiero
+                    td.text-end -
+                    td.text-end $23.385,71
           .col-lg-8.mb-4.col-xs-12.mx-auto
             p.mb-4.fw-bold Por reclasificar el crédito del largo al corto plazo
             .titulo-sexto.color-acento-contenido.mb-3
@@ -216,15 +216,15 @@
                     th Haber
                 tbody
                   tr
-                    td.fw-bold Activo corto plazo
-                    td Clientes
-                    td $ 563.189,29
-                    td -
+                    td.text-start Activo corto plazo
+                    td.text-start Clientes
+                    td.text-end $563.189,29
+                    td.text-end -
                   tr
-                    td.fw-bold Activo largo plazo
-                    td Clientes a largo plazo
-                    td -
-                    td $ 563.189,29
+                    td.text-start Activo largo plazo
+                    td.text-start Clientes a largo plazo
+                    td.text-end -
+                    td.text-end $563.189,29
           .col-lg-8.mb-4.col-xs-12.mx-auto
             p.mb-4.fw-bold Reconocimiento por cobro de crédito
             .titulo-sexto.color-acento-contenido.mb-3
@@ -240,15 +240,15 @@
                     th Haber
                 tbody
                   tr
-                    td.fw-bold Activo corto plazo
-                    td Bancos
-                    td $ 586.575
-                    td -
+                    td.text-start Activo corto plazo
+                    td.text-start Bancos
+                    td.text-end $586.575
+                    td.text-end -
                   tr
-                    td.fw-bold Activo corto plazo
-                    td Clientes
-                    td -
-                    td $ 586.575
+                    td.text-start Activo corto plazo
+                    td.text-start Clientes
+                    td.text-end -
+                    td.text-end $586.575
     .row.mb-4.ajuste-espacios-movil.mb-5
       .col.ajuste-h4
         h4 Conceptos
@@ -365,26 +365,26 @@
               th MONTOS
           tbody
             tr
-              td.fw-bold 0
-              td.texto-right $ - 120.000.00
+              td 0
+              td.text-end -$120.000.00
             tr
-              td.fw-bold 1
-              td.texto-right -
+              td 1
+              td.text-end -
             tr
-              td.fw-bold 2
-              td.texto-right -
+              td 2
+              td.text-end -
             tr
-              td.fw-bold 3
-              td.texto-right -
+              td 3
+              td.text-end -
             tr
-              td.fw-bold 4
-              td.texto-right -
+              td 4
+              td.text-end -
             tr
-              td.fw-bold 5
-              td.texto-right $ 138.000.00
+              td 5
+              td.text-end $138.000.00
             tr
-              td.fw-bold 6
-              td.texto-right 2,4 %
+              td 6
+              td.text-end 2,4 %
 
     p.mb-5 Tabla de amortización: para determinar los costos financieros a ajustar en cada periodo.
 
@@ -402,35 +402,35 @@
             th MONTO FINAL
         tbody
           tr
-            td.fw-bold 1
-            td.texto-right $ 120.000.00
-            td.texto-right $ 2.828.05
-            td.texto-right $ 122.828.05
+            td 1
+            td.text-end $120.000,00
+            td.text-end $2.828,05
+            td.text-end $122.828,05
           tr
-            td.fw-bold 2
-            td.texto-right $ 122.28.05
-            td.texto-right $ 2894.70
-            td.texto-right $ 125.722.75
+            td 2
+            td.text-end $122.28,05
+            td.text-end $2894,70
+            td.text-end $125.722,75
           tr
-            td.fw-bold 3
-            td.texto-right $ 125.722,75
-            td.texto-right $ 2.962,92
-            td.texto-right $ 128.685,66
+            td 3
+            td.text-end $125.722,75
+            td.text-end $2.962,92
+            td.text-end $128.685,66
           tr
-            td.fw-bold 4
-            td.texto-right $ 128.685,66
-            td.texto-right $ 3.032,74
-            td.texto-right $ 131.718,41
+            td 4
+            td.text-end $128.685,66
+            td.text-end $3.032,74
+            td.text-end $131.718,41
           tr
-            td.fw-bold 5
-            td.texto-right $ 131.718,41
-            td.texto-right $ 3.104,22
-            td.texto-right $ 134.822,63
+            td 5
+            td.text-end $131.718,41
+            td.text-end $3.104,22
+            td.text-end $134.822,63
           tr
-            td.fw-bold 6
-            td.texto-right $ 134.822,63
-            td.texto-right $ 3.177,37
-            td.texto-right $ 138.000,00
+            td 6
+            td.text-end $134.822,63
+            td.text-end $3.177,37
+            td.text-end $138.000,00
     separador
 
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -533,29 +533,29 @@
             th Unidad
         tbody
           tr
-            td.fw-bold Suscripción
-            td.texto-right 52
-            td.texto-right Bonos
+            td.text-start Suscripción
+            td 52
+            td Bonos
           tr
-            td.fw-bold Valor emisión
-            td.texto-right 7.000
-            td.texto-right Pesos por bono
+            td.text-start Valor emisión
+            td 7.000
+            td Pesos por bono
           tr
-            td.fw-bold Valor reembolso
-            td.texto-right 8.000
-            td.texto-right Pesos por bono
+            td.text-start Valor reembolso
+            td 8.000
+            td Pesos por bono
           tr
-            td.fw-bold Fecha reembolso
-            td.texto-right 31/12/año 2
-            td.texto-right -
+            td.text-start Fecha reembolso
+            td 31/12/año 2
+            td -
           tr
-            td.fw-bold Gastos de emisión
-            td.texto-right 1000
-            td.texto-right Pesos
+            td.text-start Gastos de emisión
+            td 1.000
+            td Pesos
           tr
-            td.fw-bold Interés anual
-            td.texto-right 3 %
-            td.texto-right EA
+            td.text-start Interés anual
+            td 3 %
+            td EA
     p Se requiere:
 
     p.mb-5 Contabilizar las operaciones derivadas.
@@ -577,11 +577,11 @@
                       th MONTOS
                   tbody
                     tr
-                      td.fw-bold 0
-                      td.texto-right $ -363.000
+                      td 0
+                      td -$363.000
                     tr
-                      td.fw-bold AÑO 1
-                      td.texto-right $ 10.920
+                      td AÑO 1
+                      td $10.920
             .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-19.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
@@ -601,21 +601,21 @@
                     th SALDO
                 tbody
                   tr
-                    td.fw-bold AÑO 1
-                    td $ 365.000,00
-                    td $ 36.361,89
-                    td $ 10.920,00
-                    td $ 25.441,89
-                    td $ 390.442
+                    td Año 1
+                    td.text-end $365.000,00
+                    td.text-end $36.361,89
+                    td.text-end $10.920,00
+                    td.text-end $25.441,89
+                    td.text-end $390.442
                   tr
-                    td.fw-bold AÑO 2
-                    td $ 390.441,89
-                    td $ 38.896,45
-                    td $ 10.920,00
-                    td $ 27.976,45
-                    td $ 418.418
+                    td Año 2
+                    td.text-end $390.441,89
+                    td.text-end $38.896,45
+                    td.text-end $10.920,00
+                    td.text-end $27.976,45
+                    td.text-end $418.418
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
+            .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Suscripción
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 11.
@@ -624,22 +624,22 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Valores representativos de deuda a largo plazo
-                      td.texto-right $ 365.000,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Valores representativos de deuda a largo plazo
+                      td.text-end $365.000,00
+                      td.text-end -
                     tr
-                      td.fw-bold Bancos
-                      td.texto-right -
-                      td.texto-right $ 365.000,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
+                      td.text-start(colspan="2") Bancos
+                      td.text-end -
+                      td.text-end $365.000,00
+            .col-lg-4.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-20.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
+            .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Cobro del interés explícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 12.
@@ -648,22 +648,22 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Bancos
-                      td.texto-right $ 10.920,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Bancos
+                      td.text-end $10.920,00
+                      td.text-end -
                     tr
-                      td.fw-bold Ingresos de valores representativos de deuda
-                      td.texto-right -
-                      td.texto-right $ 10.920,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
+                      td.text-start(colspan="2") Ingresos de valores representativos de deuda
+                      td.text-end -
+                      td.text-end $10.920,00
+            .col-lg-4.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-21.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
+            .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Devengo del interés implícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 13.
@@ -672,22 +672,22 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Valores representativos de deudas a corto plazo
-                      td.texto-right $ 365.000,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Valores representativos de deudas a corto plazo
+                      td.text-end $365.000,00
+                      td.text-end -
                     tr
-                      td.fw-bold Bancos
-                      td.texto-right -
-                      td.texto-right 365.000,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
+                      td.text-start(colspan="2") Bancos
+                      td.text-end -
+                      td.text-end 365.000,00
+            .col-lg-4.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-22.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
+            .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 1. Reclasificación de los títulos a corto plazo
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 14.
@@ -696,22 +696,22 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Bancos
-                      td.texto-right $ 10.920,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Bancos
+                      td.text-end $10.920,00
+                      td.text-end -
                     tr
-                      td.fw-bold Ingresos de valores representativos de deuda
-                      td.texto-right -
-                      td.texto-right $ 10.920,00
-            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
+                      td.text-start(colspan="2") Ingresos de valores representativos de deuda
+                      td.text-end -
+                      td.text-end $10.920,00
+            .col-lg-4.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-23.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
+            .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
               p.fw-bold AÑO 2. Cobro del interés explícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 15.
@@ -720,19 +720,19 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Valores representativos de deuda a largo plazo
-                      td.texto-right $ 25.441,89
-                      td.texto-right -
+                      td.text-start(colspan="2") Valores representativos de deuda a largo plazo
+                      td.text-end $25.441,89
+                      td.text-end -
                     tr
-                      td.fw-bold Ingresos de valores representativos de deuda
-                      td.texto-right -
-                      td.texto-right $ 25.441,89
-            .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
+                      td.text-start(colspan="2") Ingresos de valores representativos de deuda
+                      td.text-end -
+                      td.text-end $25.441,89
+            .col-lg-4.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-24.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
@@ -744,18 +744,18 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Valores representativos de deudas a corto plazo
-                      td.texto-right $ 390.441,89
-                      td.texto-right -
+                      td.text-start(colspan="2") Valores representativos de deudas a corto plazo
+                      td.text-end $390.441,89
+                      td.text-end -
                     tr
-                      td.fw-bold Valores representativos de deudas a largo plazo
-                      td.texto-right -
-                      td.texto-right $ 390.441,89
+                      td.text-start(colspan="2") Valores representativos de deudas a largo plazo
+                      td.text-end -
+                      td.text-end $390.441,89
             .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-25.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
@@ -768,18 +768,18 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold Bancos
-                      td.texto-right $ 10.920,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Bancos
+                      td.text-end $10.920,00
+                      td.text-end -
                     tr
-                      td.fw-bold Ingresos de valores representativos de deuda
-                      td.texto-right -
-                      td.texto-right $ 10.920,00
+                      td.text-start(colspan="2") Ingresos de valores representativos de deuda
+                      td.text-end -
+                      td.text-end $10.920,00
             .col-lg-5.mb-4.mb-lg-0.mx-auto.order-1.order-lg-2(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img-26.svg" style="max-width: 298px").mx-auto
 
@@ -850,40 +850,40 @@
             th SALDO FINAL
         tbody
           tr
-            td.fw-bold 1
-            td.texto-right $ 128.000.000
-            td.texto-right $ 40.468.926
-            td.texto-right $ 22.400.000
-            td.texto-right $ 18.068.926
-            td.texto-right $ 109.931.074
+            td 1
+            td.text-end $128.000.000
+            td.text-end $40.468.926
+            td.text-end $22.400.000
+            td.text-end $18.068.926
+            td.text-end $109.931.074
           tr
-            td.fw-bold 2
-            td.texto-right $ 109.931.074
-            td.texto-right $ 40.468.926
-            td.texto-right $ 19.237.938
-            td.texto-right $ 21.230.989
-            td.texto-right $ 88.700.085
+            td 2
+            td.text-end $109.931.074
+            td.text-end $40.468.926
+            td.text-end $19.237.938
+            td.text-end $21.230.989
+            td.text-end $88.700.085
           tr
-            td.fw-bold 3
-            td.texto-right $ 88.700.085
-            td.texto-right $ 40.468.926
-            td.texto-right $ 15.522.515
-            td.texto-right $ 24.946.412
-            td.texto-right $ 63.753.673
+            td 3
+            td.text-end $88.700.085
+            td.text-end $40.468.926
+            td.text-end $15.522.515
+            td.text-end $24.946.412
+            td.text-end $63.753.673
           tr
-            td.fw-bold 4
-            td.texto-right $ 63.753.673
-            td.texto-right $ 40.468.926
-            td.texto-right $ 11.156.893
-            td.texto-right $ 29.312.034
-            td.texto-right $ 34.441.640
+            td 4
+            td.text-end $63.753.673
+            td.text-end $40.468.926
+            td.text-end $11.156.893
+            td.text-end $29.312.034
+            td.text-end $34.441.640
           tr
-            td.fw-bold 5
-            td.texto-right $ 34.441.640
-            td.texto-right $ 40.468.926
-            td.texto-right $ 6.027.287
-            td.texto-right $ 34.441.640
-            td.texto-right -
+            td 5
+            td.text-end $34.441.640
+            td.text-end $40.468.926
+            td.text-end $6.027.287
+            td.text-end $34.441.640
+            td.text-end -
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -905,17 +905,17 @@
             th CRÉDITO
         tbody
           tr
-            td.fw-bold Obligaciones financieras
-            td.texto-right -
-            td.texto-right $ 128.000.000,00
+            td.text-start Obligaciones financieras
+            td.text-end -
+            td.text-end $128.000.000,00
           tr
-            td.fw-bold Costo amortizado
-            td.texto-right $ 400.000,00
-            td.texto-right -
+            td.text-start Costo amortizado
+            td.text-end $400.000,00
+            td.text-end -
           tr
-            td.fw-bold Efectivo
-            td.texto-right $ 127.600.000,00
-            td.texto-right -
+            td.text-start Efectivo
+            td.text-end $127.600.000,00
+            td.text-end -
 
 
 </template>

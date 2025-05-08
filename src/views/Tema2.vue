@@ -101,7 +101,7 @@
       .ajuste-slider
         SlyderA(tipo="b")
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-12.col-lg-10.col-xl-8.mx-auto(data-aos="fade-right")
+            .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento inicial, compra del paquete de acciones
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 20.
@@ -110,20 +110,20 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold.text-start Inversiones financieras a largo plazo en instrumentos de patrimonio
-                      td.texto-right $ 130.000.000,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
+                      td.text-end $ 130.000.000,00
+                      td.text-end -
                     tr
-                      td.fw-bold.text-start Bancos
-                      td.texto-right -
-                      td.texto-right $ 130.000.000,00
+                      td.text-start(colspan="2") Bancos
+                      td.text-end -
+                      td.text-end $ 130.000.000,00
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-12.col-lg-10.col-xl-8.mx-auto(data-aos="fade-right")
+            .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento inicial, compra de las opciones
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 21.
@@ -132,20 +132,20 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold.text-start Activos por derivados financieros a largo plazo, instrumentos de cobertura
-                      td.texto-right $ 130.000.000,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Activos por derivados financieros a largo plazo, instrumentos de cobertura
+                      td.text-end $ 130.000.000,00
+                      td.text-end -
                     tr
-                      td.fw-bold.text-start Bancos
-                      td.texto-right -
-                      td.texto-right $ 130.000.000,00
+                      td.text-start(colspan="2") Bancos
+                      td.text-end -
+                      td.text-end $ 130.000.000,00
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-12.col-lg-10.col-xl-8.mx-auto(data-aos="fade-right")
+            .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento posterior a 31 de diciembre. Por la contabilización de la partida cubierta a valor razonable con cambios en resultados
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 22.
@@ -154,20 +154,20 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold.text-start Pérdidas de disponibles para laventa
-                      td.texto-right $ 5.000.000,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Pérdidas de disponibles para laventa
+                      td.text-end $ 5.000.000,00
+                      td.text-end -
                     tr
-                      td.fw-bold.text-start Inversiones financieras a largo plazo en instrumentos de patrimonio
-                      td.texto-right -
-                      td.texto-right $ 5.000.000,00
+                      td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
+                      td.text-end -
+                      td.text-end $ 5.000.000,00
           .d-flex.flex-wrap.col-xl-11.mx-auto
-            .col-12.col-lg-10.col-xl-8.mx-auto(data-aos="fade-right")
+            .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento posterior a 31 de diciembre. Por la contabilización del instrumento de cobertura a su valor razonable, con cambios en los resultados del ejercicio
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 23.
@@ -176,18 +176,18 @@
                 table.table-type-1
                   thead
                     tr
-                      th CUENTA
+                      th(colspan="2") CUENTA
                       th DÉBITOS
                       th CRÉDITOS
                   tbody
                     tr
-                      td.fw-bold.text-start Activos por derivados financieros a largo plazo, instrumentos de cobertura
-                      td.texto-right $ 300.000,00
-                      td.texto-right -
+                      td.text-start(colspan="2") Activos por derivados financieros a largo plazo, instrumentos de cobertura
+                      td.text-end $ 300.000,00
+                      td.text-end -
                     tr
-                      td.fw-bold.text-start Inversiones financieras a largo plazo en instrumentos de patrimonio
-                      td.texto-right -
-                      td.texto-right $ 300.000,00
+                      td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
+                      td.text-end -
+                      td.text-end $ 300.000,00
     separador
 
     .fondo-slider(style="background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(255,245,234) 30%, rgba(255,245,234) 80%, rgba(0,0,0,0) 100%);")
@@ -237,13 +237,13 @@
                 th CRÉDITOS
             tbody
               tr.bg-white
-                td.fw-bold.text-start Capital por suscribir
-                td.texto-right $ 300.000.000
-                td.texto-right -
+                td.text-start Capital por suscribir
+                td.text-end $ 300.000.000
+                td.text-end -
               tr.bg-white
-                td.fw-bold.text-start Capital autorizado
-                td.texto-right -
-                td.texto-right $ 300.000.000
+                td.text-start Capital autorizado
+                td.text-end -
+                td.text-end $ 300.000.000
 
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 25.
@@ -257,17 +257,17 @@
                 th CRÉDITOS
             tbody
               tr.bg-white
-                td.fw-bold.text-start Efectivo y sus equivalentes
-                td.texto-right $ 105.000.000
-                td.texto-right -
+                td.text-start Efectivo y sus equivalentes
+                td.text-end $ 105.000.000
+                td.text-end -
               tr.bg-white
-                td.fw-bold.text-start Capital suscrito por pagar
-                td.texto-right $ 45.000.000
-                td.texto-right -
+                td.text-start Capital suscrito por pagar
+                td.text-end $ 45.000.000
+                td.text-end -
               tr.bg-white
-                td.fw-bold.text-start Capital por suscribir
-                td.texto-right -
-                td.texto-right $ 150.000.000
+                td.text-start Capital por suscribir
+                td.text-end -
+                td.text-end $ 150.000.000
 
 
       .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -279,11 +279,45 @@
       
       p.mb-5 Se presentan a continuación los datos relacionados con el capital autorizado, suscrito y pagado:
 
-      .col-lg-10.col-xl-6.mx-auto.py-5.px-3.mb-5(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
-        img(src="@/assets/curso/tema2/img-6.svg", alt="", style="max-width: 394px").mx-auto
+      .col-lg-10.col-xl-6.mx-auto.py-5.px-3.px-md-5.mb-5(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5 Capital autorizado
+          .span 120.000 acciones
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5 Valor por acción
+          .span $2.500,00
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5
+          .col-4(style="border-bottom: 1px solid black")
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5 Valor total
+          .span $300.000.000
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5
+          .col-4(style="border-bottom: 1px solid black")
+        .col-12.d-flex.justify-content-between
+          .span.pe-5 Capital suscrito
+          .span 50 %
 
-      .col-lg-10.col-xl-6.mx-auto.py-5.px-3.mb-5(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
-        img(src="@/assets/curso/tema2/img-7.svg", alt="", style="max-width: 394px").mx-auto
+      .col-lg-10.col-xl-6.mx-auto.py-5.px-3.px-md-5.mb-5(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)")
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5 Total suscrito
+          .span $150.000.000
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5 Pagado
+          .span 70 %
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5
+          .col-4(style="border-bottom: 1px solid black")
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5 Total capital pagado
+          .span $105.000.000
+        .col-12.d-flex.justify-content-between.mb-3
+          .span.pe-5
+          .col-4(style="border-bottom: 1px solid black")
+        .col-12.d-flex.justify-content-between
+          .span.pe-5 Capital por pagar
+          .span $45.000.000
       
       .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
@@ -295,8 +329,40 @@
       p.mb-5 A continuación, se presenta el estado de situación financiera inicial de la empresa:
 
       .d-flex.flex-wrap.mb-5
-        .col-lg-6.mx-auto.py-5.px-3.mb-5.order-2.order-lg-1(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)" data-aos="fade-right")
-          img(src="@/assets/curso/tema2/img-9.svg", alt="", style="max-width: 396px").mx-auto
+        .col-lg-6.mx-auto.py-5.px-3.px-md-5.mb-5.order-2.order-lg-1(style="background-color: white; box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15)" data-aos="fade-right")
+          p Aprendiendo S.A.
+          p Estados de situación Financiera Inicial
+          p A 1/1/17
+          p.py-3.fw-bold Activos
+          p.mb-4 Activo corriente
+          .linea-points.v2
+            span.label(style="background-color: white") efectivo y sus equivalentes
+            span.value(style="background-color: white") $105.000.000
+          .linea-points.v2
+            span.label(style="background-color: white") Total, activos
+            span.value(style="background-color: white") $105.000.000
+          p.mb-0.fw-bold Pasivos
+          .linea-points.v2.mb-4
+            span.label(style="background-color: white") Total, pasivos
+            span.value(style="background-color: white") $0
+          p.mb-1 Patrimonio
+          p.mb-4 Capital social
+          .linea-points.v2.mb-3
+            span.label(style="background-color: white") Capital autorizado
+            span.value(style="background-color: white") $300.000.000
+          .linea-points.v2.mb-3
+            span.label(style="background-color: white") Capital por suscribir
+            span.value(style="background-color: white") $(150.000.000)
+          .linea-points.v2.mb-3
+            span.label(style="background-color: white") Capital suscrito por cobrar
+            span.value(style="background-color: white") $(45.000.000)
+          .linea-points.v2.mb-3
+            span.label(style="background-color: white") Total, patrimonio
+            span.value(style="background-color: white") $105.000.000
+          .linea-points.v2.mb-3
+            span.label(style="background-color: white") Total, pasivo y patrimonio
+            span.value(style="background-color: white") $105.000.000
+
         .mx-auto.col-md-6.order-1.order-lg-2
           img(src="@/assets/curso/tema2/img-10.svg", alt="", style="max-width: 610px").mx-auto.mb-4.ps-lg-4
 
@@ -440,7 +506,7 @@
       .col-md.tarjeta.p-5(style="background-color: #412976")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-end.mb-4
           img.mb-4(src="@/assets/curso/tema2/img-15.svg", alt="", style="max-width: 76px")
-          h4.mb-0.ms-3.ms-md-3.px-2.py-1(style="background-color: #FD9826") Ejemplo: Presentación ORI
+          h4.mb-0.ms-3.ms-md-3.px-2.py-1(style="background-color: #FD9826") Ejemplo: presentación ORI
 
         .linea-points
           span.label Ingresos ordinarios
@@ -466,7 +532,7 @@
       .col-md.tarjeta.p-5(style="background-color: #E8E8E8")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-end.mb-4
           img.mb-4(src="@/assets/curso/tema2/img-15.svg", alt="", style="max-width: 76px")
-          h4.mb-0.ms-3.ms-md-3.px-2.py-1(style="background-color: #FD9826") Otro resultado Integral
+          h4.mb-0.ms-3.ms-md-3.px-2.py-1(style="background-color: #FD9826") Otro resultado integral
         
         .linea-points.v2
           span.label Variación valor razonable
@@ -481,7 +547,7 @@
           span.label Valor razonable instrumentos financieros
           span.value 45
         .linea-points.v2
-          span.label Total ORI
+          span.label Total, ORI
           span.value 345
         .linea-points.v2
           span.label Resultado integral total
