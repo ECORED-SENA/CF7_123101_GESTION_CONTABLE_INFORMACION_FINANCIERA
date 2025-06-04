@@ -80,7 +80,7 @@
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         p.mb-4 En periodos posteriores al reconocimiento inicial, y solo para algunos casos, por ejemplo, en inversiones patrimoniales de baja o ninguna bursatilidad, el valor determinado a partir de una remedición a valor razonable de todos los activos y pasivos de la entidad (patrimonio) podría representar una estimación fiable.
         
-        p.mb-0.p-4(style="background-color: #FEEAD4") #[b Ejemplo.]
+        p.mb-0.p-4(style="background-color: #FEEAD4") #[b Ejemplo:]
           br
           br
           |La sociedad Contable SAS, compra el primero de julio del año 0 un paquete de acciones del Banco de Bogotá, por valor de $130.000.000 y las clasifica como activos disponibles para la venta.
@@ -110,9 +110,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
@@ -132,9 +132,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Activos por derivados financieros a largo plazo, instrumentos de cobertura
@@ -154,9 +154,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Pérdidas de disponibles para laventa
@@ -176,9 +176,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Activos por derivados financieros a largo plazo, instrumentos de cobertura
@@ -232,9 +232,9 @@
           table.table-type-1
             thead
               tr
-                th CUENTA
-                th DÉBITOS
-                th CRÉDITOS
+                th Cuenta
+                th Débitos
+                th Créditos
             tbody
               tr.bg-white
                 td.text-start Capital por suscribir
@@ -252,9 +252,9 @@
           table.table-type-1
             thead
               tr
-                th CUENTA
-                th DÉBITOS
-                th CRÉDITOS
+                th Cuenta
+                th Débitos
+                th Créditos
             tbody
               tr.bg-white
                 td.text-start Efectivo y sus equivalentes
@@ -388,7 +388,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Reservas
     
-    p.mb-5 Están contempladas en los artículos 452, 453 y 454 del Código del comercio, sección II reparto de utilidades.
+    p.mb-5 Están contempladas en los artículos 452, 453 y 454 del Código del Comercio, sección II reparto de utilidades.
 
     TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Art. 452" style="background-color: #F9F7F4")
@@ -437,6 +437,7 @@
       .py-3.py-md-4(titulo="Art. 371" style="background-color: #F9F7F4")
         .d-flex.flex-wrap.col-xl-11.mx-auto
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
+            h4 Reserva legal, balances y reparto de utilidades
             p Art. 371. Reserva legal, balances y reparto de utilidades. La sociedad formará una reserva legal, con sujeción a las reglas establecidas para la anónima. Estas mismas reglas se observarán en cuanto a los balances de fin de ejercicio y al reparto de utilidades. (Código de Comercio Colombiano, 2020b).
               br
               br
@@ -447,14 +448,15 @@
 
       .py-3.py-md-4(titulo="Art. 476" style="background-color: #F9F7F4")
         .d-flex.flex-wrap.col-xl-11.mx-auto
-          .col-12.col-lg-6.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
+          .col-12.col-lg-6.mb-4.mb-lg-0.pe-lg-4
             h4 Reservas y vigilancia
             p Art. 476. Reservas y vigilancia. Las sociedades extranjeras con negocios permanentes en Colombia constituirán las reservas y provisiones que la ley exige a las anónimas nacionales y cumplirán los demás requisitos establecidos para su control y vigilancia.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
+            p.mb-0 Frente a la utilidad se aplica el porcentaje vigente definido en cada reforma tributaria, del resultado obtenido, se aplica el 10 % de reserva legal y se resta a la utilidad líquida.
+          .col-12.col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 26.
               span Determinación de utilidad neta y distribución a los accionistas
-            .tabla-a.mb-4(data-aos="fade-up")
+            .tabla-a(data-aos="fade-up")
               table.table-type-1
                 thead
                   tr
@@ -462,21 +464,20 @@
                     th.py-3 Valor
                 tbody
                   tr
-                    td.py-3(colspan="2").fw-bold.text-start Utilidad
+                    td.py-3(colspan="2").text-start Utilidad
                     td.py-3.texto-right $ 5.000.000,00
                   tr
-                    td.py-3(colspan="2").fw-bold.text-start Menos impuesto de renta 32%
+                    td.py-3(colspan="2").text-start Menos impuesto de renta 32 %
                     td.py-3.texto-right $ 1.600.000,00
                   tr
-                    td.py-3(colspan="2").fw-bold.text-start Utilidad neta
+                    td.py-3(colspan="2").text-start Utilidad neta
                     td.py-3.texto-right $  3.400.000 
                   tr
-                    td.py-3(colspan="2").fw-bold.text-start Reserva legal 10%
+                    td.py-3(colspan="2").text-start Reserva legal 10 %
                     td.py-3.texto-right $ 340.000,00
                   tr
-                    td.py-3(colspan="2").fw-bold.text-start Utilidad a distribuir a los o accionistas
+                    td.py-3(colspan="2").text-start Utilidad a distribuir a los o accionistas
                     td.py-3.texto-right $ 3.060.000,00
-          p.col-12.order-3 Frente a la utilidad se aplica el porcentaje vigente definido en cada reforma tributaria, del resultado obtenido, se aplica el 10 % de reserva legal y se resta a la utilidad líquida.
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido
@@ -488,7 +489,7 @@
         p.mb-4 Se reconocen como otro resultado integral y forman parte del resultado integral total, cuando se producen:
           br
           br
-          |Clases:
+          | #[b Clases:]
         ul.lista-ul.mb-4
           li
             i.fas.fa-angle-right.txt--purple

@@ -32,16 +32,8 @@
               .d-flex.flex-wrap.align-items-center.gap-3
                 p.order-2.order-md-1.col-12.col-md Un instrumento de patrimonio es cualquier contrato que ponga de manifiesto una participación residual en los activos de una entidad, después de deducir todos sus pasivos. (Norma Internacional de Contabilidad, s.f. p. 2).
                 img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-4.svg", alt="", style="max-width: 155px").m-auto
-      //- p.mb-5 Para ampliar la información pertinente a los instrumentos financieros (activos, pasivos e instrumentos de patrimonio), haga clic en el siguiente enlace:
 
-      //- .col-auto.d-flex.col-12.col-md-8.col-lg-5
-      //-   a.anexo(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank" style="width: 100% !important; margin-bottom: -2rem")
-      //-     .anexo__icono
-      //-       img(src="@/assets/bullets/icono-pdf.svg")
-      //-     .anexo__texto
-      //-       p #[b Anexo]. Instrumentos financieros: activos, pasivos e instrumentos de patrimonio
     separador
-
 
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Política contable
@@ -86,11 +78,11 @@
       .col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
         p.mb-4 Una entidad optará entre aplicar dependiendo del grupo al que pertenece:
         ol.lista-ol
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta.v--green
               span a
-            | Lo previsto en la Sección 11 y Sección 12 si pertenece al grupo número dos pymes.
-          li 
+            | Lo previsto en la sección 11 y sección 12 si pertenece al grupo número dos pymes.
+          li.d-flex
             .lista-ol--cuadro__vineta.v--green
               span b
             | Las disposiciones sobre reconocimiento y medición de la NIIF 9 Instrumentos financieros si pertenece al grupo número uno.
@@ -262,7 +254,7 @@
             .row.mb-4.ajuste-espacios-movil.text-center
               .col.ajuste-h4
                 h4.mb-0(style="background-color: #EDF7FE")  Costo amortizado
-            p.mb-0 Es el #[b importe al que inicialmente fue valorado un pasivo financiero], menos los pagos de principal que se hubieran producido, #[b menos los intereses] correspondientes a los períodos calculados con la técnica del tipo de interés efectivo. (Supercontable Sage, s.f p. 9).
+            p.mb-0 Es el importe al que inicialmente fue valorado un pasivo financiero, menos los pagos de principal que se hubieran producido, menos los intereses correspondientes a los períodos calculados con la técnica del tipo de interés efectivo. (Supercontable Sage, s.f p. 9).
       .col-lg-6.espacio__cajas_movil
         .ajuste-caja-text-bloque4.h-100(data-aos="flip-left" style="background-color: #BCE0FC")
           .col
@@ -361,8 +353,8 @@
         table.table-type-1
           thead
             tr
-              th PERIODO
-              th MONTOS
+              th Periodo
+              th Montos
           tbody
             tr
               td 0
@@ -396,10 +388,10 @@
       table.table-type-1
         thead
           tr
-            th PERIODOS
-            th MONTO INICIAL
-            th INTERESES
-            th MONTO FINAL
+            th Peridos
+            th Monto inicial
+            th Intereses
+            th Monto final
         tbody
           tr
             td 1
@@ -495,7 +487,7 @@
             li
               i.fas.fa-angle-right.txt--purple
               | Cuentas por cobrar.
-          p.fw-bold Instrumentos financieros de cobertura, derivados.
+          p.fw-bold Instrumentos financieros de cobertura, derivados:
           ul.lista-ul.mb-4
             li
               i.fas.fa-angle-right.txt--purple
@@ -516,7 +508,7 @@
         img(src="@/assets/curso/tema1/img-18.svg" style="max-width: 502px").mx-auto
       .d-flex.col-lg-7.mb-4.mb-lg-0.ps-lg-4(data-aos="fade-right")
         p.p-4.mb-4.mb-lg-0(style="background-color: #FEEAD4")
-          | #[b Ejemplo.]
+          | #[b Ejemplo:]
           br
           br
           | La sociedad Contable SAS realiza el 1/1/AÑO 1 una suscripción de bonos no cotizados cuyas condiciones son las siguientes:
@@ -573,8 +565,8 @@
                 table.table-type-1
                   thead
                     tr
-                      th PERIODO
-                      th MONTOS
+                      th Periodo
+                      th Montos
                   tbody
                     tr
                       td 0
@@ -593,12 +585,12 @@
               table.table-type-1(style="min-width: 750px")
                 thead
                   tr
-                    th AÑOS
-                    th SALDO INICIAL
-                    th INTERÉS EFECTIVO
-                    th INTERÉS EXPLÍCITO
-                    th INTERÉS IMPLÍCITO
-                    th SALDO
+                    th Años
+                    th Saldo inicial
+                    th Interés efectivo
+                    th Interés explícito
+                    th Interés implícito
+                    th Saldo
                 tbody
                   tr
                     td Año 1
@@ -616,7 +608,7 @@
                     td.text-end $418.418
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 1. Suscripción
+              p.fw-bold Año 1. Suscripción
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 11.
                 span Año 1. Suscripción
@@ -624,9 +616,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Valores representativos de deuda a largo plazo
@@ -640,7 +632,7 @@
               img(src="@/assets/curso/tema1/img-20.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 1. Cobro del interés explícito
+              p.fw-bold Año 1. Cobro del interés explícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 12.
                 span  Año 1. Cobro del interés explícito
@@ -648,9 +640,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Bancos
@@ -664,7 +656,7 @@
               img(src="@/assets/curso/tema1/img-21.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 1. Devengo del interés implícito
+              p.fw-bold Año 1. Devengo del interés implícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 13.
                 span Registro contable por emisión de valores a corto plazo
@@ -672,9 +664,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Valores representativos de deudas a corto plazo
@@ -688,7 +680,7 @@
               img(src="@/assets/curso/tema1/img-22.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 1. Reclasificación de los títulos a corto plazo
+              p.fw-bold Año 1. Reclasificación de los títulos a corto plazo
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 14.
                 span Registro contable por ingresos provenientes de valores representativos de deuda
@@ -696,9 +688,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Bancos
@@ -712,7 +704,7 @@
               img(src="@/assets/curso/tema1/img-23.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-8.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 2. Cobro del interés explícito
+              p.fw-bold Año 2. Cobro del interés explícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 15.
                 span Registro contable por emisión de valores representativos de deuda a largo plazo
@@ -720,9 +712,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Valores representativos de deuda a largo plazo
@@ -736,7 +728,7 @@
               img(src="@/assets/curso/tema1/img-24.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 2. Devengo del interés implícito
+              p.fw-bold Año 2. Devengo del interés implícito
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 16.
                 span Año 1. Devengo del interés implícito
@@ -744,9 +736,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Valores representativos de deudas a corto plazo
@@ -760,7 +752,7 @@
               img(src="@/assets/curso/tema1/img-25.svg" style="max-width: 298px").mx-auto
           .d-flex.flex-wrap.col-xl-11.mx-auto
             .col-lg-7.mb-4.mb-lg-0.ps-lg-4.order-2.order-lg-1(data-aos="fade-right")
-              p.fw-bold AÑO 2 Reembolso de los títulos
+              p.fw-bold Año 2. Reembolso de los títulos
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 17.
                 span Reclasificación de los títulos a corto plazo
@@ -768,9 +760,9 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") CUENTA
-                      th DÉBITOS
-                      th CRÉDITOS
+                      th(colspan="2") Cuenta
+                      th Débitos
+                      th Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Bancos
@@ -819,16 +811,16 @@
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
-        p.p-4.mb-4(style="background-color: #F3F0EA") #[b Ejemplo.]
+        p.p-4.mb-4(style="background-color: #F3F0EA") #[b Ejemplo:]
           br
           br
           |La sociedad Contable SAS Consultores adquiere un préstamo para compra de una propiedad inmobiliaria, por un valor de $128.000.000, le descuentan $400.000 para gastos de estudio del crédito. La tasa pactada es del 18 % EA, con pago a 5 cuotas anuales iguales.
         p Calculamos el valor de la cuota utilizando la herramienta pago en funciones financieras:
           br
           br
-          | =PAGO
+          | = Pago
           br
-          |= $ 40.468.926,49
+          | = $ 40.468.926,49
       .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-31.png", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
 
@@ -842,12 +834,12 @@
       table.table-type-1(style="min-width: 850px")
         thead
           tr
-            th AÑOS
-            th SALDO INICIAL
-            th CUOTA
-            th ABONO A INTERESES
-            th ABONO A CAPITAL
-            th SALDO FINAL
+            th Años
+            th Saldo inicial
+            th Cuota
+            th Abono a intereses
+            th Abono a capital
+            th Saldo final
         tbody
           tr
             td 1
@@ -900,9 +892,9 @@
       table.table-type-1
         thead
           tr
-            th CUENTA
-            th DÉBITO
-            th CRÉDITO
+            th Cuenta
+            th Débito
+            th Crédito
         tbody
           tr
             td.text-start Obligaciones financieras
