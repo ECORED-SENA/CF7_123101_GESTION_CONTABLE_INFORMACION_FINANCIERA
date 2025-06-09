@@ -814,7 +814,7 @@
         p.p-4.mb-4(style="background-color: #F3F0EA") #[b Ejemplo:]
           br
           br
-          |La sociedad Contable SAS Consultores adquiere un préstamo para compra de una propiedad inmobiliaria, por un valor de $128.000.000, le descuentan $400.000 para gastos de estudio del crédito. La tasa pactada es del 18 % EA, con pago a 5 cuotas anuales iguales.
+          |La sociedad contable SAS consultores adquiere un préstamo para compra de una propiedad inmobiliaria, por un valor de $128.000.000, le descuentan $400.000 para gastos de estudio del crédito. La tasa pactada es del 18 % EA, con pago a 5 cuotas anuales iguales.
         p Calculamos el valor de la cuota utilizando la herramienta pago en funciones financieras:
           br
           br
