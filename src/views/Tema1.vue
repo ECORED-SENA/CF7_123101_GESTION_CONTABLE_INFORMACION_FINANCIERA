@@ -136,7 +136,7 @@
           | #[b Ejemplo.]
           br
           br
-          | El 17/11/año 1, la sociedad Contable SAS vendió a crédito 5.000 unidades del producto ZV a $ 100,50 por unidad, se ha concedido sobre la factura un descuento de $ 11.400. El pago se realizará dentro de 2 años y el descuento es del 5 %.
+          | El 17/11/año 1, la sociedad contable SAS vendió a crédito 5.000 unidades del producto ZV a $ 100,50 por unidad, se ha concedido sobre la factura un descuento de $ 11.400. El pago se realizará dentro de 2 años y el descuento es del 5 %.
         p El crédito constituye para el vendedor un activo financiero, pues es un derecho contractual.
         p Como es una transacción a largo plazo, se debe reconocer el valor del dinero en el tiempo a la tasa del 5 % efectiva anual, lo que implica el cálculo del valor presente del valor de la venta neta (491.100) para reconocer al final del año 1 y 2 el ajuste por concepto de los gastos financieros así:  
       .mx-auto.col-lg-5.order-1.order-lg-2
@@ -511,7 +511,7 @@
           | #[b Ejemplo:]
           br
           br
-          | La sociedad Contable SAS realiza el 1/1/AÑO 1 una suscripción de bonos no cotizados cuyas condiciones son las siguientes:
+          | La sociedad contable SAS realiza el 1/1/año 1 una suscripción de bonos no cotizados cuyas condiciones son las siguientes:
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 8.
