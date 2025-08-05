@@ -20,8 +20,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> identificar los conceptos clave relacionados con el reconocimiento, medición, presentación y revelación de instrumentos financieros, conforme a la normativa contable vigente.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -57,7 +57,7 @@ export default {
         {
           id: 2,
           texto: '¿Qué representa un pasivo financiero?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -88,7 +88,7 @@ export default {
         {
           id: 3,
           texto: '¿Qué representa un pasivo financiero?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -120,7 +120,7 @@ export default {
           id: 4,
           texto:
             '¿Qué método se utiliza para calcular el costo amortizado de un pasivo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -150,7 +150,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuál es el objetivo de la política contable?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
         {
           id: 7,
           texto: '¿Qué instrumentos se miden generalmente a valor razonable?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -244,7 +244,7 @@ export default {
           id: 8,
           texto:
             '¿Qué debe revelarse en las notas a los estados financieros según la NIIF 7?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -276,7 +276,7 @@ export default {
           id: 9,
           texto:
             '¿Qué tipo de cuenta representa una acción preferencial si el emisor debe reembolsarla?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -306,7 +306,7 @@ export default {
         {
           id: 10,
           texto: '¿Qué representa el Otro Resultado Integral (ORI)?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -359,7 +359,7 @@ export default {
           id: 12,
           texto:
             'Todos los activos financieros deben medirse siempre a costo amortizado.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -380,7 +380,7 @@ export default {
           id: 13,
           texto:
             'Un instrumento de patrimonio representa una participación residual en los activos de una entidad.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -401,7 +401,7 @@ export default {
           id: 14,
           texto:
             'Las provisiones se reconocen cuando hay certeza del monto y la fecha de pago.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -422,7 +422,7 @@ export default {
           id: 15,
           texto:
             'El capital suscrito es la parte del capital autorizado que los accionistas se comprometen a pagar.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
